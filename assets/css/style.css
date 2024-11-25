@@ -60,7 +60,7 @@ ol,
 table,
 span,
 blockquote {
-  color: whitesmoke;
+  color: white;
 }
 
 p,
@@ -68,6 +68,7 @@ ul,
 li,
 ol {
   font-size: 18px;
+  color: white;
 }
 
 /* https://css-tricks.com/snippets/css/make-pre-text-wrap/ */
