@@ -17,6 +17,7 @@ body {
   min-height: 450px;
   counter-reset: sidenote-counter;
   background-color: black;
+  color: whitesmoke;
 }
 
 .box {
@@ -45,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #555555;
+  color: #0357ac;
   font-weight: 600;
   margin-top: 20px;
 }
@@ -215,7 +216,7 @@ hr {
 }
 
 .userboard {
-  background-color: #f7f7f7;
+  background-color: #0dc4f6;
   width: 100%;
   border: 1px grey solid;
   border-radius: 3px;
