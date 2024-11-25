@@ -9,7 +9,7 @@ author: false
 <div class="row pt-5"id="Who-I-Am">
    <div class="col-lg-4">
       <h1 class="text-center">Who I Am</h1>
-      <img class="mx-auto d-block mb-3" src="https://photos.app.goo.gl/ZVAKZ1bkWX7kKJrJ8" height="300" alt="Photo of Don Gato">
+      <img class="mx-auto d-block mb-3" src="../assets/img/unnamed (1).jpg" height="300" alt="Photo of Don Gato">
       <p class="text-center">
             <a href="https://dev.to/dongato-x"><img
                   src="https://img.shields.io/badge/-dev&#46;to-0A0A0A?style=flat&amp;labelColor=0A0A0A&amp;logo=dev.to&amp;logoColor=white&amp;link=https://dev.to/brennan"
@@ -23,20 +23,7 @@ author: false
             <img src="https://img.shields.io/badge/-Open%20Source%20Fan-3DA639?style=flat&amp;logo=open-source-initiative&amp;logoColor=ffffff"
                alt="Open Source">
       </p>
-   </div>
-   <div class="col-lg-8">
-
-   <!-- <div class="text-center">
-         <h2>About Me</h2>
-         <subtitle class="font-weight-bold text-muted">
-            <span style="color: orangered;">
-               <i class="fas fa-map-pin"></i>
-            </span> For Hire
-            <span style="color: dodgerblue;">
-               <i class="ml-4 fas fa-map-marked-alt"></i>
-            </span> Willing to Relocate
-         </subtitle>
-   </div> -->
+   </div
 
    <br />
 
@@ -47,3 +34,4 @@ author: false
          </p>
    </div>
 </div>
+
