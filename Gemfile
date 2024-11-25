@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-minifier"
   gem "jekyll-toc"
+  gem 'execjs'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -27,6 +28,7 @@ end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"
   gem "tzinfo-data"
+  gem 'execjs'
 end
 
 # Performance-booster for watching directories on Windows
