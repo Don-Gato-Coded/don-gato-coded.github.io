@@ -1,6 +1,17 @@
 /******************************************************
     *             PREDEFINE TAGS CSS                     *
     *******************************************************/
+ /*
+    span {
+    color: whitesmoke;
+    color: black;
+    color: cyan;
+    color: #0357ac;
+    color: #0052d4
+
+  }
+      */
+
 @import "/assets/css/highlight.css";
 @import "/assets/css/accessibility.css";
 @import "/assets/css/toc.css";
@@ -35,7 +46,7 @@ header {
 }
 
 .sans {
-  font-family: Inter, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", Ubuntu, sans-serif !important;
+  font-family: Helvetica, Inter, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", Ubuntu, sans-serif !important;
 }
 
 /* Phrasing Style: H1, H2, H3, H4, H5, H6, P, A, UL, LI */
@@ -46,7 +57,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: cyan;
+  color: #0357ac;
   font-weight: 600;
   margin-top: 20px;
 }
@@ -60,7 +71,7 @@ ol,
 table,
 span,
 blockquote {
-  color: white;
+  color: whitesmoke;
 }
 
 p,
@@ -68,7 +79,7 @@ ul,
 li,
 ol {
   font-size: 18px;
-  color: white;
+  color: whitesmoke;
 }
 
 /* https://css-tricks.com/snippets/css/make-pre-text-wrap/ */
@@ -211,7 +222,7 @@ hr {
 }
 
 .dashboard {
-  border-bottom: 2px solid #f7f7f7;
+  border-bottom: 2px solid whitesmoke;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -452,7 +463,7 @@ hr {
 }
 
 .back-icon {
-  background-color: white;
+  background-color: whitesmoke;
   fill: currentColor;
   color: #555555;
   margin-top: 5px;
@@ -549,7 +560,8 @@ hr {
 }
 
 .content a {
-  color: #0357ac;
+  color:   #0052d4
+  ;
   text-decoration: none;
 }
 
