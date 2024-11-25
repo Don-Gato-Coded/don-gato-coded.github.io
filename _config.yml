@@ -1,6 +1,6 @@
 # Site Data
 title: "The Blacklist"
-tagline: " — crossed off rvry list 📜"
+tagline: " — crossed off every list 📜"
 name: "Don Gato"
 author_bio:
   "Hello,A digital nomad 💻, Can be found physically wondering the environs of the mitten state."
@@ -23,7 +23,11 @@ repository: https://github.com/Don-Gato-Coded/don-gato-coded.github.io
 github: https://github.com/Don-Gato-Coded
 twitter: https://twitter.com/miblanco4
 # portfolio: https://brennanbrown.ca
-email: don.gato.coded@gmail.conm
+email: don.gato.coded@gmail.com
+threads: https://www.threads.net/@elgatokjt
+dev: https://dev.to/dongato-x
+stackoverflow: https://stackoverflow.com/users/1547229/elgatokjt
+
 
 # Build Settings
 theme: null

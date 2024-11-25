@@ -1,7 +1,7 @@
 /******************************************************
     *             PREDEFINE TAGS CSS                     *
     *******************************************************/
- /*
+ 
     span {
     color: whitesmoke;
     color: black;
@@ -229,7 +229,7 @@ hr {
 }
 
 .userboard {
-  background-color: #0dc4f6;
+  background-color: #0052d4;
   width: 100%;
   border: 1px grey solid;
   border-radius: 3px;
