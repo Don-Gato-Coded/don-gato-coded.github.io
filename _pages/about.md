@@ -6,7 +6,7 @@ content-type: eg
 author: false
 ---
 
-<div class="row pt-5"id="Who-I-Am">
+<div class="row pt-5">
    <div class="col-lg-4">
       <h1 class="text-center">Who I Am</h1>
       <img class="mx-auto d-block mb-3" src="../assets/img/unnamed (1).jpg" height="300" alt="Photo of Don Gato">
@@ -23,7 +23,7 @@ author: false
             <img src="https://img.shields.io/badge/-Open%20Source%20Fan-3DA639?style=flat&amp;logo=open-source-initiative&amp;logoColor=ffffff"
                alt="Open Source">
       </p>
-   </div
+   </div>
 
    <br />
 
