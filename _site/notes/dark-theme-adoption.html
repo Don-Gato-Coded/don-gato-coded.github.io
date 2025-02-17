@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD -->
+
+<head>
+    <!-- More information: https://htmlhead.dev/ -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Jekyll" name="generator">
+    <link href="LICENSE" rel="license">
+
+    <meta content="The Blacklist" property="og:site_name"/>
+    <meta content="A Digital Garden." property="og:description">
+    <meta content="https://enjoyment-work.netlify.app//about/" property="article:author">
+    <meta name="Description" content="A Digital Garden."><meta content="Dark theme adoption as a function of cognitive exhaustion" property="og:title">
+        <meta content="article" property="og:type">
+        <meta content="https://enjoyment-work.netlify.app//notes/dark-theme-adoption" property="og:url"><title>The Blacklist
+        |
+            Dark theme adoption as a function of cognitive exhaustion</title>
+
+        <meta name="application-name" content="The Blacklist">
+        <meta name="theme-color" content="white">
+        <link rel="archives" href="https://enjoyment-work.netlify.app//archives/">
+
+        <meta content="index,follow" name="robots"><!-- All Search Engines -->
+        <meta content="index,follow" name="googlebot"><!-- Google Specific -->
+        
+            <!-- Font Awesome 5 -->
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/e9dddf84a6.js"></script>
+
+        <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+        <link rel="canonical" href="https://enjoyment-work.netlify.app//notes/dark-theme-adoption">
+        <link rel="apple-touch-icon" href="https://brennanbrown.ca/img/avatar.jpg">
+
+        <!-- Bootstrap core CSS -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" rel="stylesheet">
+        <!-- CSS -->
+        <link class="default" href="/assets/css/style.css" media="all" rel="stylesheet"/>
+
+        <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+        <![endif]-->
+            <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+        <link rel="alternate" type="application/rss+xml" href="https://enjoyment-work.netlify.app//feed.xml">
+    </head
+</head>
+
+    <body>
+        <a class="skip-main" href="#content">Skip to main content</a>
+        <!-- MAIN CONTENT -->
+        <main class="flex-shrink-0" role="main">
+            <div class="row justify-content-center pb-3">
+                <div class="col-md-7 col-sm-12">
+                    <!-- HEADER -->
+<header class="mb-4">
+    <div class="dashboard disable-select">
+        <div class="mb-2 text-center">
+            <h1 class="p-2 mt-2" id="site-header">
+                <a href="/">The Blacklist</a>
+                <br class="d-md-none d-block">
+                <small>
+                     — Crossed off every list. 
+                </small>
+            </h1>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <span>
+                    <a " href="/about">DonGato</a>
+                </span>
+            </div>
+            <div class=" userdesc">
+                <p>A Digital Garden.</p>
+            </div>
+            <div class="link-to-notes text-right">
+                <i class="fas fa-link"></i>
+                <a href="/notes">https://enjoyment-work.netlify.app/notes</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-site-subheader menu disable-select text-center">
+        <div class="about">
+            <a " href="/about">
+                <i class=" fas fa-signature"></i>
+                About
+            </a>
+        </div>
+        <div class="hashtags">
+            <a " href="/tags">
+                <i class=" fas fa-hashtag"></i>
+                Tags
+            </a>
+        </div>
+        <div class="categories">
+            <a " href="/categories">
+                <i class=" far fa-folder-open"></i>
+                Categories
+            </a>
+        </div>
+        <div class="archive">
+            <a " href="/archive">
+                <i class=" fas fa-archive"></i>
+                Archive
+            </a>
+        </div>
+        <div class="rss">
+            <a " href="/feed.xml">
+                <i class=" fas fa-rss"></i>
+                RSS
+            </a>
+        </div>
+        <div class="donate">
+            <a href="https://ko-fi.com/brennanbrown" ">
+                <i class=" fas fa-dollar-sign"></i>
+                Donate
+            </a>
+        </div>
+    </div>
+    <div class="searchbar search-container sans">
+        <i aria-hidden="true" class="fa fa-search"></i>
+        <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)" placeholder="Search Enjoyment Work..." type="text"/>
+        <label for="search-input"></label>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function () {
+                    document.addEventListener('click', function (event) {
+                        var isClickInside = document.getElementById("results-container").contains(event
+                            .target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                })
+            } else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="https://enjoyment-work.netlify.app/{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
+            noResultsText: 'No results found. Try another search.',
+            fuzzy: false,
+            limit: 5
+        })
+    </script><div class="mt-3" id="breadcrumbs">
+    
+    <i class="fas fa-arrow-left"></i>
+    <a href="/">Home</a>
+    
+        
+            /
+            <a href="/notes/">Notes</a>
+        
+    
+        
+            /
+            Dark theme adoption as a function of cognitive exhaustion
+        
+    
+</div></header>
+                    
+                    <div id="content"><article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+    <h1>Dark theme adoption as a function of cognitive exhaustion</h1><!-- Parse internal links, external links, transclusions, etc. and manipulate the content to reflect it accordingly --><div class="content"><p>Sensitivity to brightness can occur due to number of issues ranging from corneal issues like infections and abrasions, to dry eye, to concussions, to allergies; eg: Keratoconus, Uveitis, Keratitis, Preeclampsia. Google claims in its <a href="<a href="https://developer.android.com/guide/topics/ui/look-and-feel/darktheme">https://developer.android.com/guide/topics/ui/look-and-feel/darktheme</a>">android developer guide that dark themes can improve visibility for people who have low vision and are sensititive to brightness</a>, but people I have spoken to on this topic (n≈20) had normal vision and normal range of sensitivity to light.</p>
+
+<p>Even people with mild eye issues<label for="lsn-0" class="margin-toggle sidenote-number "></label><input type="checkbox" id="lsn-0" class="margin-toggle"/><span class="sn-left">Jason Harrison, UBC - People with astigmatism (approximately 50% of the population) find it harder to read white text on black than black text on white.</span> seem to benefit from light theme than dark theme in most cases. And to top it all, even the researches that focus on the legibility<label for="rsn-1" class="margin-toggle sidenote-number "></label><input type="checkbox" id="rsn-1" class="margin-toggle"/><span class="sn-right">Bauer, D., &amp; Cavonius, C., R. (1980). <em>Improving the legibility of visual display units through contrast reversal.</em> <br /><strong>See Below for more</strong>.</span> and aesthetics claim that dark on light is almost always better than dark on light. Every article I have read and referenced below vouch for dark on light, which I find to be true too at least in most occasions.</p>
+
+<p>How can what is relatively bad for legibility in most ocassions, bad in terms of expressibility of authorial aesthetics be a wide-spread preference? My hypothesis is this is primarily due to cognitive exhaustion like sleep deprivation, burn-out, stress etc (Extrapolating from n=1), which due to implicity conformity and <a href="<a href="https://en.wikipedia.org/wiki/Preference_falsification">https://en.wikipedia.org/wiki/Preference_falsification</a>">preference falsification<sup ><i class="fa fa-wikipedia-w"></i>
+        </sup></a> has become a normative social element. My experience has been that when I have had a bad last night sleep or stress due to office, I invariably am looking for less polarity, otherwise the dark on white seems more appealing to me both aesthetics wise and legibility wise. An extension of these could be that cognitive stress elevate the ocular stress like accomodative/refractive/convergence stress leading up to this, but I contest dark mode being the wide-spread personal/subjective preference.</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<p>Bauer, D., &amp; Cavonius, C., R. (1980). <em>Improving the legibility of visual display units through contrast reversal.</em>
+(From: <a href="<a href="https://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes">https://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes</a>">UX Stackexchange on theme and eye strain</a>)</p>
+
+<blockquote>
+  <p>"…However, most studies have shown that dark characters on a light background are superior to light characters on a dark background (when the refresh rate is fairly high). For example, Bauer and Cavonius (1980) found that participants were 26% more accurate in reading text when they read it with dark characters on a light background…"</p>
+</blockquote>
+
+<p>Pabini Gabriel-Petit. (2007). <em><a href="<a href="https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php">https://www.uxmatters.com/mt/archives/2007/01/applying-color-theory-to-digital-displays.php</a>">Applying color theory to digital displays</a></em></p>
+
+<blockquote>
+  <p>"…While white text on a black background provides very high value contrast, it is less readable and causes greater eye fatigue than black text on a white background…"</p>
+</blockquote>
+
+<p>Jason Harrison – Post Doctoral Fellow, Imager Lab Manager – Sensory Perception and Interaction Research Group, University of British Columbia</p>
+
+<blockquote>
+  <p>People with astigmatism (approximately 50% of the population) find it harder to read white text on black than black text on white. Part of this has to do with light levels: with a bright display (white background) the iris closes a bit more, decreasing the effect of the "deformed" lens; with a dark display (black background) the iris opens to receive more light and the deformation of the lens creates a much fuzzier focus at the eye.</p>
+</blockquote>
+
+<p>Raluca Budiu. (2020). <em><a href="<a href="https://www.nngroup.com/articles/dark-mode/">https://www.nngroup.com/articles/dark-mode/</a>">Dark mode v Light Mode: Which is better</a></em></p>
+
+<blockquote>
+  <p>"…Their results showed that light mode won across all dimensions: irrespective of age, the positive contrast polarity was better for both visual-acuity tasks and for proofreading tasks. However, the difference between light mode and dark mode in the visual-acuity task was smaller for older adults than for younger adults — meaning that, although light mode was better for older adults, too, they did not benefit from it as much as younger adults, at least in the visual-acuity task.</p>
+
+  <p>When researchers looked at fatigue metrics, they concluded that there was no significant difference of contrast polarity on any of them (meaning that it wasn’t the case that dark mode made people more tired, or vice versa)…"</p>
+</blockquote>
+
+<p>Lauren V. Scharff, Albert J Ahumada. (2005). <a href="<a href="https://jov.arvojournals.org/article.aspx?articleid=2132608">https://jov.arvojournals.org/article.aspx?articleid=2132608</a>">Why is light text harder to read than dark text</a></p>
+
+<blockquote>
+  <p>"…For paragraph readability and letter identification, responses to light text were slower and less accurate for a given contrast…."</p>
+</blockquote>
+
+<p>Jim Sheedy, Kevin Larson. (2008). <em><a href="<a href="https://www.eyemagazine.com/opinion/article/eye-strain">https://www.eyemagazine.com/opinion/article/eye-strain</a>">Blink: The stress of Reading</a></em></p>
+
+</div><div class="row" id="author">
+        <div class="col-xl-3 col-12">
+            <img src="https://brennanbrown.ca/img/avatar.jpg" class="img-thumbnail d-block mx-auto"/>
+        </div>
+        <div class="col-xl-9 col-12" id="author-text">
+            <h2 class="text-lg-left text-center">
+                About
+                DonGato
+            </h2>
+            <p>
+                A digital nomad.
+            </p>
+        </div>
+    </div><!-- BACKLINKS --><!-- RELATED POSTS --><div class="related" id="jekyll-seamless-relatedposts">
+            <h2>Related Notes</h2>
+            <div class="related-wrapper"><div class="related-group">
+                            <a href="/notes/project-control">
+                                <p class="related-title">Everyone should have a project that they control 100% of</p>
+                                <p class="related-excerpt">To improve as a programmer, every programmer whether working independently or in an organization should atleast have one project that the...</p>
+                            </a>
+                        </div></div>
+            <br/>
+        </div></article></div>
+                </div>
+            </div>
+                <button class="scroll-to-top" id="scroll-to-top">
+                    UP <i class="fa fa-chevron-up"></i>
+                </button>
+            </div>
+        </main>
+        <!-- FOOTER -->
+<footer class="page-footer font-small blue" id="footer">
+    <div class="container-fluid text-sm-left">
+        <div class="row">
+            <div class="col-sm-6 mt-sm-0 my-3">
+                <h2 class="text-uppercase text-center">About
+                    The Blacklist</h2>
+                <p class="text-justify text-white mx-3">
+                    <small>The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the resulting "showpiece" and more on the process, care, and craft it takes to get there. While not everybody has or works in a dirt garden, we all share a familiarity with the idea of what a garden is.</small>
+                </p>
+            </div>
+            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
+                <h2 class="text-uppercase">Directory</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/home">
+                            <i class="fas fa-home"></i>
+                            Home Page</a>
+                    </li>
+                    <li>
+                        <a href="/about">
+                            <i class="fas fa-signature"></i>
+                            About</a>
+                    </li>
+                    <li>
+                        <a href="/posts">
+                            <i class="fas fa-flag"></i>
+                            Blog Posts</a>
+                    </li>
+                    <li>
+                        <a href="/feeds">
+                            <i class="fas fa-rss-square"></i>
+                            RSS Feeds</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
+                <h2 class="text-uppercase">Other Places</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://github.com/brennanbrown">
+                            <i class="fab fa-github"></i>
+                            GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/brennankbrown">
+                            <i class="fab fa-twitter"></i>
+                            Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://brennanbrown.ca">
+                            <i class="fas fa-briefcase"></i>
+                            Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="mailto:mail@brennanbrown.ca">
+                            <i class="fas fa-envelope"></i>
+                            E-mail</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-1 px-5">
+        Source Code licensed
+        <a href="https://github.com/brennanbrown/enjoyment-work/blob/master/LICENSE">MIT</a>
+        2025.
+        <br/>
+        Website content licensed
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+        |
+        <a href="https://github.com/brennanbrown/enjoyment-work">
+            View Source Code
+        </a>
+
+    </div>
+</footer>
+
+        <!-- SCRIPTS -->
+<script>
+  document
+    .getElementById("scroll-to-top")
+    .addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
+</script>
+
+<script type="text/javascript">
+    window.MathJax = {
+        tex: {
+            packages: ["base", "ams"]
+        },
+        loader: {
+            load: ["ui/menu", "[tex]/ams"]
+        }
+    };
+</script>
+
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" type="text/javascript"></script>
+
+    </body>
+</html>

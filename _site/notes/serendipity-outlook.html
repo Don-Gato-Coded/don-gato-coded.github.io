@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD -->
+
+<head>
+    <!-- More information: https://htmlhead.dev/ -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Jekyll" name="generator">
+    <link href="LICENSE" rel="license">
+
+    <meta content="The Blacklist" property="og:site_name"/>
+    <meta content="A Digital Garden." property="og:description">
+    <meta content="https://enjoyment-work.netlify.app//about/" property="article:author">
+    <meta name="Description" content="A Digital Garden."><meta content="Serendipity-based outlook as a driver for large-scale personal projects" property="og:title">
+        <meta content="article" property="og:type">
+        <meta content="https://enjoyment-work.netlify.app//notes/serendipity-outlook" property="og:url"><title>The Blacklist
+        |
+            Serendipity-based outlook as a driver for large-scale personal projects</title>
+
+        <meta name="application-name" content="The Blacklist">
+        <meta name="theme-color" content="white">
+        <link rel="archives" href="https://enjoyment-work.netlify.app//archives/">
+
+        <meta content="index,follow" name="robots"><!-- All Search Engines -->
+        <meta content="index,follow" name="googlebot"><!-- Google Specific -->
+        
+            <!-- Font Awesome 5 -->
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/e9dddf84a6.js"></script>
+
+        <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+        <link rel="canonical" href="https://enjoyment-work.netlify.app//notes/serendipity-outlook">
+        <link rel="apple-touch-icon" href="https://brennanbrown.ca/img/avatar.jpg">
+
+        <!-- Bootstrap core CSS -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" rel="stylesheet">
+        <!-- CSS -->
+        <link class="default" href="/assets/css/style.css" media="all" rel="stylesheet"/>
+
+        <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+        <![endif]-->
+            <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+        <link rel="alternate" type="application/rss+xml" href="https://enjoyment-work.netlify.app//feed.xml">
+    </head
+</head>
+
+    <body>
+        <a class="skip-main" href="#content">Skip to main content</a>
+        <!-- MAIN CONTENT -->
+        <main class="flex-shrink-0" role="main">
+            <div class="row justify-content-center pb-3">
+                <div class="col-md-7 col-sm-12">
+                    <!-- HEADER -->
+<header class="mb-4">
+    <div class="dashboard disable-select">
+        <div class="mb-2 text-center">
+            <h1 class="p-2 mt-2" id="site-header">
+                <a href="/">The Blacklist</a>
+                <br class="d-md-none d-block">
+                <small>
+                     — Crossed off every list. 
+                </small>
+            </h1>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <span>
+                    <a " href="/about">DonGato</a>
+                </span>
+            </div>
+            <div class=" userdesc">
+                <p>A Digital Garden.</p>
+            </div>
+            <div class="link-to-notes text-right">
+                <i class="fas fa-link"></i>
+                <a href="/notes">https://enjoyment-work.netlify.app/notes</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-site-subheader menu disable-select text-center">
+        <div class="about">
+            <a " href="/about">
+                <i class=" fas fa-signature"></i>
+                About
+            </a>
+        </div>
+        <div class="hashtags">
+            <a " href="/tags">
+                <i class=" fas fa-hashtag"></i>
+                Tags
+            </a>
+        </div>
+        <div class="categories">
+            <a " href="/categories">
+                <i class=" far fa-folder-open"></i>
+                Categories
+            </a>
+        </div>
+        <div class="archive">
+            <a " href="/archive">
+                <i class=" fas fa-archive"></i>
+                Archive
+            </a>
+        </div>
+        <div class="rss">
+            <a " href="/feed.xml">
+                <i class=" fas fa-rss"></i>
+                RSS
+            </a>
+        </div>
+        <div class="donate">
+            <a href="https://ko-fi.com/brennanbrown" ">
+                <i class=" fas fa-dollar-sign"></i>
+                Donate
+            </a>
+        </div>
+    </div>
+    <div class="searchbar search-container sans">
+        <i aria-hidden="true" class="fa fa-search"></i>
+        <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)" placeholder="Search Enjoyment Work..." type="text"/>
+        <label for="search-input"></label>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function () {
+                    document.addEventListener('click', function (event) {
+                        var isClickInside = document.getElementById("results-container").contains(event
+                            .target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                })
+            } else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="https://enjoyment-work.netlify.app/{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
+            noResultsText: 'No results found. Try another search.',
+            fuzzy: false,
+            limit: 5
+        })
+    </script><div class="mt-3" id="breadcrumbs">
+    
+    <i class="fas fa-arrow-left"></i>
+    <a href="/">Home</a>
+    
+        
+            /
+            <a href="/notes/">Notes</a>
+        
+    
+        
+            /
+            Serendipity-based outlook as a driver for large-scale personal projects
+        
+    
+</div></header>
+                    
+                    <div id="content"><article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+    <h1>Serendipity-based outlook as a driver for large-scale personal projects</h1><!-- Parse internal links, external links, transclusions, etc. and manipulate the content to reflect it accordingly --><div class="content"><p>Goal-oriented outlook for large-scale personal projects seem to be detrimental in a sense that in the absence of an enforcing agent it seems to be contributing to issues like will-power dissolution, decision fatigue, burn-out, guilt etc owing to the disincentives of self-enforced adherence to an idea/project for a long term. This is based on the idea by Kurzban et. al that overcommiting to a task, that is only expected to show its result in distant future, can dissolve will power to an extent of a burnout or complete unproductivity. And in my opinion, it not just affects the quantifiable components, it also affects your qualitative components like creative autonomy.</p>
+
+<p>After talking with few interesting people and trying out various different processes myself I have come to the conclusion that some of the strategies mentioned below can help in persistance of motivation in a long term personal project without any unnatural self-enforced adherence. I call it serendipity-based outlook because the diversion<label for="lsn-0" class="margin-toggle sidenote-number "></label><input type="checkbox" id="lsn-0" class="margin-toggle"/><span class="sn-left">…'I bounce between projects to maintain my interest. (In Kurzban's theory, willpower seems to reflect opportunity cost and a built-in aversion to overcomitting to a task which hasn't delivered any large rewards yet, and switching regularly helps prevent burnout.) Since many of my pages are incremental, there's always little things to be done'…<br /><cite>—Email Exchange with Gwern</cite></span>. from the singular focus towards the main project seems to be allowing for some kind unexpected results and epiphanies as byproducts.</p>
+
+<p>Working Strategies:</p>
+
+<ul>
+  <li>Multiple projects requiring varying degree of proficiency with the main one allowing the maintenance of a Flow State(i.e., not too difficult to deprive you of maintaining motivation, not too easy to be waded off as trivial, one that can challenge you while using your current level of understanding). And Constantly bouncing between them as an alternative to the main one.</li>
+  <li>Stretches of idle days working on nothing or random things can lead to surprising results <strong>See:</strong> <a href="https://m.facebook.com/nntaleb/posts/10152466038423375">Nassim Taleb on this</a> and <a href="https://harpers.org/archive/1932/10/in-praise-of-idleness/">Bertrand Russell on the praise of this</a>.</li>
+  <li>Frequent alternation between recreational projects like writing, blogging etc as an anti-dote to the side-effects of the main project.</li>
+  <li>Undirected effort(such as researching) effort towards a sub-goal. Letting serendipity take over.<label for="rsn-1" class="margin-toggle sidenote-number "></label><input type="checkbox" id="rsn-1" class="margin-toggle"/><span class="sn-right">…'Having no set goal in mind means you are not worried about completing anything. Also lately, I’m finding things are more interconnected than they seem. So whatever I learn contributes to a the whole than narrowing down to a slice of it'…<br /><cite>—Twitter Exchange with Prathyush</cite></span></li>
+  <li><a href="https://paulgraham.com/ds.html">Do Things That Don't Scale</a></li>
+</ul>
+
+<p><strong>**</strong>One thing that I have been observing is multiyear projects with smaller-side projects can help incorporate the Hybrid Routine Easily.*</p>
+
+<hr />
+
+<h2 id="references">References</h2>
+
+<p>Baumeister &amp; Tierney. (2011). <em><a href="https://www.nytimes.com/2011/08/21/magazine/do-you-suffer-from-decision-fatigue.html?pagewanted=all">Do You Suffer From Decision Fatigue</a></em></p>
+
+<blockquote>
+  <p>…‘Good decision making is not a trait of the person, in the sense that it’s always there,’ Baumeister says. ‘It’s a state that fluctuates.’ His studies show that people with the best self-control are the ones who structure their lives so as to conserve willpower. They don’t schedule endless back-to-back meetings. They avoid temptations like all-you-can-eat buffets, and they establish habits that eliminate the mental effort of making choices. Instead of deciding every morning whether or not to force themselves to exercise, they set up regular appointments to work out with a friend. Instead of counting on willpower to remain robust all day, they conserve it so that it’s available for emergencies and important decisions….’Even the wisest people won’t make good choices when they’re not rested and their glucose is low,’ Baumeister points out. That’s why the truly wise don’t restructure the company at 4 p.m. They don’t make major commitments during the cocktail hour. And if a decision must be made late in the day, they know not to do it on an empty stomach. ‘The best decision makers,’ Baumeister says, ‘are the ones who know when not to trust themselves.’…</p>
+</blockquote>
+
+<p>Conversation with <a href="https://twitter.com/gwern">Gwern Branwen<sup ><i class="fa fa-twitter"></i></sup></a>. (2019-Dec-19). <em>Email Exchange</em></p>
+
+<blockquote>
+  <p>…'I bounce between projects to maintain my interest. (In Kurzban's theory, willpower seems to reflect opportunity cost and a built-in aversion to overcomitting to a task which hasn't delivered any large rewards yet, and switching regularly helps prevent burnout.) Since many of my pages are incremental, there's always little things to be done'…</p>
+</blockquote>
+
+<p>Conversation with <a href="https://twitter.com/prathyvsh">Prathyush Pramod<sup ><i class="fa fa-twitter"></i></sup></a>. (2019-Nov-15th). <em>Twitter Exchange</em></p>
+
+<blockquote>
+  <p>…'Having no set goal in mind means you are not worried about completing anything. Also lately, I’m finding things are more interconnected than they seem. So whatever I learn contributes to a the whole than narrowing down to a slice of it'…</p>
+</blockquote>
+
+<p>Taleb, Nicholas Nassim. (2015). <em>Antifragile</em></p>
+
+<p>Taleb, Nicholas Nassim. (2018). <em><a href="https://twitter.com/nntaleb/status/1029812693660848129">Twitter thread on routine<sup ><i class="fa fa-twitter"></i></sup></a></em></p>
+
+<blockquote>
+  <p>Routine is effortless. Most humans, alas, prefer to expend physical, never intellectual energy. Creating requires much, much more effort.</p>
+</blockquote>
+
+<p>Graham, Paul. (2013). <a href="https://paulgraham.com/ds.html">Do Things That Don't Scale</a></p>
+
+<p>My Journal Entry, Jan 6th 2019</p>
+
+<blockquote>
+  <p>Clearly, my brain has learned to ignore the Google calendar notifications. Initially, scheduling and completely the event/task used to feel rewarding, so I built up on that and kept adding trivial items in my calendar like gym, writing, journaling, etc. Although it worked for a couple of days, somehow there was a behavioral shift in how I was responding to the notifications, now it was not only the trivial ones that I was ignoring, the important ones too got side-tracked as a result of decision fatigue.</p>
+
+  <p>Although the extremely important ones had this aging process of incremental prioritization owing to <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law">Parkinson's Law<sup ><i class="fa fa-wikipedia-w"></i>
+        </sup></a>.</p>
+
+  <blockquote>
+    <p><strong><em>Parkinson's Law:</em></strong> Work expands so as to fill the time available for its completion</p>
+  </blockquote>
+</blockquote>
+
+</div><div class="row" id="author">
+        <div class="col-xl-3 col-12">
+            <img src="https://brennanbrown.ca/img/avatar.jpg" class="img-thumbnail d-block mx-auto"/>
+        </div>
+        <div class="col-xl-9 col-12" id="author-text">
+            <h2 class="text-lg-left text-center">
+                About
+                DonGato
+            </h2>
+            <p>
+                A digital nomad.
+            </p>
+        </div>
+    </div><!-- BACKLINKS --><!-- RELATED POSTS --><div class="related" id="jekyll-seamless-relatedposts">
+            <h2>Related Notes</h2>
+            <div class="related-wrapper"><div class="related-group">
+                            <a href="/notes/cultural-artefacts">
+                                <p class="related-title">Cultural artefacts to improve the resonance and life expectancy of your writing</p>
+                                <p class="related-excerpt">Cultural additions like one's philosophical inclinations, directed social interactions through common social artefacts, etc can add perso...</p>
+                            </a>
+                        </div><div class="related-group">
+                            <a href="/notes/epistemic-humility">
+                                <p class="related-title">Epistemic humility to avoid unintended ontological dust while writing</p>
+                                <p class="related-excerpt">When writing an essay (applies to both opinion piece as well as factual ones), remember to clearly portray the epistemic humility[[Episte...</p>
+                            </a>
+                        </div><div class="related-group">
+                            <a href="/notes/project-control">
+                                <p class="related-title">Everyone should have a project that they control 100% of</p>
+                                <p class="related-excerpt">To improve as a programmer, every programmer whether working independently or in an organization should atleast have one project that the...</p>
+                            </a>
+                        </div></div>
+            <br/>
+        </div></article></div>
+                </div>
+            </div>
+                <button class="scroll-to-top" id="scroll-to-top">
+                    UP <i class="fa fa-chevron-up"></i>
+                </button>
+            </div>
+        </main>
+        <!-- FOOTER -->
+<footer class="page-footer font-small blue" id="footer">
+    <div class="container-fluid text-sm-left">
+        <div class="row">
+            <div class="col-sm-6 mt-sm-0 my-3">
+                <h2 class="text-uppercase text-center">About
+                    The Blacklist</h2>
+                <p class="text-justify text-white mx-3">
+                    <small>The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the resulting "showpiece" and more on the process, care, and craft it takes to get there. While not everybody has or works in a dirt garden, we all share a familiarity with the idea of what a garden is.</small>
+                </p>
+            </div>
+            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
+                <h2 class="text-uppercase">Directory</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/home">
+                            <i class="fas fa-home"></i>
+                            Home Page</a>
+                    </li>
+                    <li>
+                        <a href="/about">
+                            <i class="fas fa-signature"></i>
+                            About</a>
+                    </li>
+                    <li>
+                        <a href="/posts">
+                            <i class="fas fa-flag"></i>
+                            Blog Posts</a>
+                    </li>
+                    <li>
+                        <a href="/feeds">
+                            <i class="fas fa-rss-square"></i>
+                            RSS Feeds</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
+                <h2 class="text-uppercase">Other Places</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://github.com/brennanbrown">
+                            <i class="fab fa-github"></i>
+                            GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/brennankbrown">
+                            <i class="fab fa-twitter"></i>
+                            Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://brennanbrown.ca">
+                            <i class="fas fa-briefcase"></i>
+                            Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="mailto:mail@brennanbrown.ca">
+                            <i class="fas fa-envelope"></i>
+                            E-mail</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-1 px-5">
+        Source Code licensed
+        <a href="https://github.com/brennanbrown/enjoyment-work/blob/master/LICENSE">MIT</a>
+        2025.
+        <br/>
+        Website content licensed
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+        |
+        <a href="https://github.com/brennanbrown/enjoyment-work">
+            View Source Code
+        </a>
+
+    </div>
+</footer>
+
+        <!-- SCRIPTS -->
+<script>
+  document
+    .getElementById("scroll-to-top")
+    .addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
+</script>
+
+<script type="text/javascript">
+    window.MathJax = {
+        tex: {
+            packages: ["base", "ams"]
+        },
+        loader: {
+            load: ["ui/menu", "[tex]/ams"]
+        }
+    };
+</script>
+
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" type="text/javascript"></script>
+
+    </body>
+</html>

@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD -->
+
+<head>
+    <!-- More information: https://htmlhead.dev/ -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <meta content="Jekyll" name="generator">
+    <link href="LICENSE" rel="license">
+
+    <meta content="The Blacklist" property="og:site_name"/>
+    <meta content="A Digital Garden." property="og:description">
+    <meta content="https://enjoyment-work.netlify.app//about/" property="article:author">
+    <meta name="Description" content="A Digital Garden."><meta content="How-To Setup Enjoyment work" property="og:title">
+        <meta content="article" property="og:type">
+        <meta content="https://enjoyment-work.netlify.app//posts/How-to-setup-enjoyment-work" property="og:url"><title>The Blacklist
+        |
+            How-To Setup Enjoyment work</title>
+
+        <meta name="application-name" content="The Blacklist">
+        <meta name="theme-color" content="white">
+        <link rel="archives" href="https://enjoyment-work.netlify.app//archives/">
+
+        <meta content="index,follow" name="robots"><!-- All Search Engines -->
+        <meta content="index,follow" name="googlebot"><!-- Google Specific -->
+        
+            <!-- Font Awesome 5 -->
+        <script crossorigin="anonymous" src="https://kit.fontawesome.com/e9dddf84a6.js"></script>
+
+        <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
+        <link rel="canonical" href="https://enjoyment-work.netlify.app//posts/How-to-setup-enjoyment-work">
+        <link rel="apple-touch-icon" href="https://brennanbrown.ca/img/avatar.jpg">
+
+        <!-- Bootstrap core CSS -->
+        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" rel="stylesheet">
+        <!-- CSS -->
+        <link class="default" href="/assets/css/style.css" media="all" rel="stylesheet"/>
+
+        <!--[if IE]>
+        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
+        <![endif]-->
+            <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
+        <link rel="alternate" type="application/rss+xml" href="https://enjoyment-work.netlify.app//feed.xml">
+    </head
+</head>
+
+    <body>
+        <a class="skip-main" href="#content">Skip to main content</a>
+        <!-- MAIN CONTENT -->
+        <main class="flex-shrink-0" role="main">
+            <div class="row justify-content-center pb-3">
+                <div class="col-md-7 col-sm-12">
+                    <!-- HEADER -->
+<header class="mb-4">
+    <div class="dashboard disable-select">
+        <div class="mb-2 text-center">
+            <h1 class="p-2 mt-2" id="site-header">
+                <a href="/">The Blacklist</a>
+                <br class="d-md-none d-block">
+                <small>
+                     — Crossed off every list. 
+                </small>
+            </h1>
+        </div>
+        <div class="userboard profile-board-col">
+            <div class="username">
+                <span>
+                    <a " href="/about">DonGato</a>
+                </span>
+            </div>
+            <div class=" userdesc">
+                <p>A Digital Garden.</p>
+            </div>
+            <div class="link-to-notes text-right">
+                <i class="fas fa-link"></i>
+                <a href="/notes">https://enjoyment-work.netlify.app/notes</a>
+            </div>
+        </div>
+    </div>
+    <div class="main-site-subheader menu disable-select text-center">
+        <div class="about">
+            <a " href="/about">
+                <i class=" fas fa-signature"></i>
+                About
+            </a>
+        </div>
+        <div class="hashtags">
+            <a " href="/tags">
+                <i class=" fas fa-hashtag"></i>
+                Tags
+            </a>
+        </div>
+        <div class="categories">
+            <a " href="/categories">
+                <i class=" far fa-folder-open"></i>
+                Categories
+            </a>
+        </div>
+        <div class="archive">
+            <a " href="/archive">
+                <i class=" fas fa-archive"></i>
+                Archive
+            </a>
+        </div>
+        <div class="rss">
+            <a " href="/feed.xml">
+                <i class=" fas fa-rss"></i>
+                RSS
+            </a>
+        </div>
+        <div class="donate">
+            <a href="https://ko-fi.com/brennanbrown" ">
+                <i class=" fas fa-dollar-sign"></i>
+                Donate
+            </a>
+        </div>
+    </div>
+    <div class="searchbar search-container sans">
+        <i aria-hidden="true" class="fa fa-search"></i>
+        <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)" placeholder="Search Enjoyment Work..." type="text"/>
+        <label for="search-input"></label>
+        <ul id="results-container"></ul>
+    </div>
+    <script src="/assets/js/simple-jekyll-search.min.js"></script>
+    <script>
+        function changeResultContainerDisp(val) {
+            if (val) {
+                document.getElementById("results-container").style.display = "block";
+                document.getElementById("search-input").addEventListener('blur', function () {
+                    document.addEventListener('click', function (event) {
+                        var isClickInside = document.getElementById("results-container").contains(event
+                            .target);
+                        if (!isClickInside) {
+                            document.getElementById("results-container").style.display = "none";
+                        }
+                    })
+                })
+            } else {
+                document.getElementById("results-container").style.display = "none";
+            }
+        }
+        var sjs = SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '/search.json',
+            searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="https://enjoyment-work.netlify.app/{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
+            noResultsText: 'No results found. Try another search.',
+            fuzzy: false,
+            limit: 5
+        })
+    </script><div class="mt-3" id="breadcrumbs">
+    
+    <i class="fas fa-arrow-left"></i>
+    <a href="/">Home</a>
+    
+        
+            /
+            <a href="/posts/">Posts</a>
+        
+    
+        
+            /
+            How-To Setup Enjoyment work
+        
+    
+</div></header>
+                    
+                    <div id="content"><article class="post" itemscope itemtype="https://schema.org/BlogPosting">
+    <h1>How-To Setup Enjoyment work</h1><!-- Parse internal links, external links, transclusions, etc. and manipulate the content to reflect it accordingly --><ul class="tags"><li>
+            <strong>
+                <a class="post-metadata" href="/dates/#01-March-2020">Sunday, March 1, 2020</a>
+            </strong>
+        </li>
+        <!-- Loop through page categories and print them in tags --><li>
+                <a class="tag" href="/tags/#jekyll">#jekyll</a>
+            </li><li>
+                <a class="tag" href="/tags/#theme">#theme</a>
+            </li></ul><div class="toc mb-5" id="toc">
+    <div id="toctitle">
+        <h2>Table of Contents:</h2>
+    </div>
+    <ul id="toc" class="section-nav">
+<li class="entry toc-h2"><a href="#usage">Usage</a>
+<ul>
+<li class="entry toc-h3"><a href="#setup-prerequisites">Setup Prerequisites</a></li>
+<li class="entry toc-h3"><a href="#1-create-a-fork-of-the-template-repository">1. Create a fork of the template repository</a></li>
+<li class="entry toc-h3"><a href="#2-clone-your-repository-locally">2. Clone your repository locally</a></li>
+<li class="entry toc-h3"><a href="#3-test-out-the-site-locally">3. Test out the site locally</a></li>
+<li class="entry toc-h3"><a href="#4-connect-your-github-repository-to-netlify">4. Connect your GitHub repository to Netlify</a></li>
+<li class="entry toc-h3"><a href="#5-start-producing-content-with-your-enjoyment-work-based-website">5. Start producing content with your Enjoyment work based Website</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="content"><p>This is going to be a super simple post about how to setup and use this theme for your own website.</p>
+
+<h2 id="usage">Usage</h2>
+
+<p class="boxit">Q. What will it look like when I am done setting it up?</p>
+
+<blockquote>
+  <p>This is what it should look (minus the exact essays ofcourse):
+<img src="/assets/img/end_result.jpg" style="box-shadow: 2px 2px 20px 0 #ddd;" /></p>
+</blockquote>
+
+<p>Now without further ado, let's get started!</p>
+
+<h3 id="setup-prerequisites">Setup Prerequisites</h3>
+
+<p>For this tutorial, we’ll need to install a few things on your machine (you may have some of these already). Following the instructions on each website to install them.</p>
+
+<ul>
+  <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
+  <li><a href="https://rubygems.org/">RubyGems</a></li>
+  <li><a href="https://git-scm.com/downloads">Git</a></li>
+</ul>
+
+<p>You’ll also need to create accounts on the following services:</p>
+
+<ul>
+  <li><a href="https://www.github.com/join">GitHub<sup ><i class="fa fa-github"></i></sup></a> (to store the website)</li>
+  <li><a href="https://app.netlify.com/signup">Netlify</a> (to serve the website so others can see)</li>
+</ul>
+
+<p>Once you are all set with the prerequisites, we can then get to the fun part of getting it to appear on your screen. Let's get started with that.</p>
+
+<h3 id="1-create-a-fork-of-the-template-repository">1. Create a fork of the template repository</h3>
+
+<p>To simplify things, I provide the template showed in the image above to get started. You can always tweak this template to your taste later.</p>
+
+<p>Visit the GitHub page for my template repository (<a href="https://github.com/raghuveerdotnet/jekyll-seamless">raghuveerdotnet/jekyll-seamless<sup ><i class="fa fa-github"></i></sup></a>), and fork it to your account using the Fork button:</p>
+
+<blockquote>
+  <p><img src="/assets/img/fork_button.jpg" style="box-shadow: 2px 2px 20px 0 #ddd;" /></p>
+</blockquote>
+
+<p>Once the forking process is complete, you should have a fork (essentially a copy) of my template in your own GitHub account. On the GitHub page for your repository, click on the green “Clone or download” button, and copy the URL: we’ll need it for the next step.</p>
+
+<h3 id="2-clone-your-repository-locally">2. Clone your repository locally</h3>
+
+<p>Next, we want to download the files from your GitHub repository onto your local machine. To do this, replace <YOUR_COPIED_URL_HERE> in the command below with the URL you copied in the previous step, then execute this command:</YOUR_COPIED_URL_HERE></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone &lt;YOUR_COPIED_URL_HERE&gt; my-personal-website
+</code></pre></div></div>
+
+<p>As a reference point, this is how it looks like for me (the difference is likely just the GitHub username):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git@github.com:raghuveerdotnet/jekyll-seamless.git my-personal-website
+</code></pre></div></div>
+
+<p>Then, navigate into the directory that was just created:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd my-personal-website
+</code></pre></div></div>
+
+<h3 id="3-test-out-the-site-locally">3. Test out the site locally</h3>
+
+<p>Sweet! You now have your repository’s source code on your machine. Within the my-personal-website directory, run the following command to install the necessary dependencies like Jekyll:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle
+</code></pre></div></div>
+
+<p>Once that’s done, ask Jekyll to start serving the site locally:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle exec jekyll serve
+</code></pre></div></div>
+
+<p>Then, open up <a href="https://localhost:4000">https://localhost:4000</a> in your browser.</p>
+
+<p>If everything’s done correctly, you should now see the home page of your Personal Jekyll Website with Enjoyment work Theme. 🎉</p>
+
+<p>Keep in mind that this site is only available locally (notice the <code class="language-plaintext highlighter-rouge">localhost</code> part of the URL), so if we want it to be available on the Internet for everyone to enjoy, we need to deploy it to the Internet: we’ll use Netlify for that in the next step.</p>
+
+<h3 id="4-connect-your-github-repository-to-netlify">4. Connect your GitHub repository to Netlify</h3>
+
+<p>Netlify lets you automatically deploy your personal website on to the Internet when you update your GitHub repository. To do this, we need to connect your GitHub repository to Netlify:</p>
+
+<ol>
+  <li>Log in to Netlify</li>
+  <li>Once logged in, click the “New site from Git” button</li>
+  <li>On the next page, select GitHub as the continuous deployment provider (you may need to authorize the connection, in which case, approve it)</li>
+  <li>On the next page, select your website repository from the list.</li>
+  <li>On the next page, replace the basic build settings with the following.
+    <ol>
+      <li>Type in "jekyll build" (without the quotes) inside the text field titled "Build Command".</li>
+      <li>Similarly type in "_site/" (without the quotes) inside the text field titled "Publish Directory".</li>
+    </ol>
+  </li>
+  <li>On the next page, keep the default settings, and click on “Deploy site”.</li>
+</ol>
+
+<p>That was easy! We’re almost done.</p>
+
+<p>Wait a couple of minutes for the initial deploy to complete.</p>
+
+<p>Once that’s done, your website should be available on the Internet via a generic Netlify URL, which you can change to a custom domain later if you’d like.</p>
+
+<p>Now the cool thing is this: whenever you push an update to your GitHub repository, Netlify will automatically deploy your updates to the Internet.</p>
+
+<h3 id="5-start-producing-content-with-your-enjoyment-work-based-website">5. Start producing content with your Enjoyment work based Website</h3>
+
+<p>At this point, you can start updating the files on your machine (in the my-personal-website folder) to change your jekyll seamless based website to your liking: update the copy, add some notes, tweak the layout, customize the colors, etc. Once you have something you’re happy with, push your changes to your GitHub repository with the following commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git add --all
+$ git commit -m 'Update content'
+$ git push origin master
+</code></pre></div></div>
+
+<p>If that command succeeds and the rest of the tutorial was done correctly, in a couple of minutes, you should see your changes live on your Netlify website. 🚀</p>
+
+<p>And we’re done! You now have your own Enjoyment work based Personal Website .</p>
+
+<hr />
+
+<p>If you’re curious, take a look at <a href="https://www.raghuveer.net">my personal jekyll seamless based website here</a>.</p>
+
+<p>This setup tutorial is inspired by <a href="https://maximevaillancourt.com">Maxime Vaillancourt</a>'s Digital Garden Tutorial.</p>
+
+</div><div class="row" id="author">
+        <div class="col-xl-3 col-12">
+            <img src="https://brennanbrown.ca/img/avatar.jpg" class="img-thumbnail d-block mx-auto"/>
+        </div>
+        <div class="col-xl-9 col-12" id="author-text">
+            <h2 class="text-lg-left text-center">
+                About
+                DonGato
+            </h2>
+            <p>
+                A digital nomad.
+            </p>
+        </div>
+    </div><!-- BACKLINKS --><!-- RELATED POSTS --><div class="related" id="jekyll-seamless-relatedposts">
+            <h2>Related Posts</h2>
+            <div class="related-wrapper"><div class="related-group">
+                            <a href="/posts/Introduction-to-enjoyment-work">
+                                <p class="related-title">Introduction to Enjoyment work</p>
+                                <p class="related-excerpt">Enjoyment work is a highly functional jekyll-based theme that combines the best of different worlds (atleast tries to 😅). It is a minimal...</p>
+                            </a>
+                        </div><div class="related-group">
+                            <a href="/posts/How-to-use-enjoyment-work-features-on-your-website">
+                                <p class="related-title">How to use Enjoyment work features on your website</p>
+                                <p class="related-excerpt">Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[E...</p>
+                            </a>
+                        </div></div>
+            <br/>
+        </div></article></div>
+                </div>
+            </div>
+                <button class="scroll-to-top" id="scroll-to-top">
+                    UP <i class="fa fa-chevron-up"></i>
+                </button>
+            </div>
+        </main>
+        <!-- FOOTER -->
+<footer class="page-footer font-small blue" id="footer">
+    <div class="container-fluid text-sm-left">
+        <div class="row">
+            <div class="col-sm-6 mt-sm-0 my-3">
+                <h2 class="text-uppercase text-center">About
+                    The Blacklist</h2>
+                <p class="text-justify text-white mx-3">
+                    <small>The phrase "digital garden" is a metaphor for thinking about writing and creating that focuses less on the resulting "showpiece" and more on the process, care, and craft it takes to get there. While not everybody has or works in a dirt garden, we all share a familiarity with the idea of what a garden is.</small>
+                </p>
+            </div>
+            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
+                <h2 class="text-uppercase">Directory</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/home">
+                            <i class="fas fa-home"></i>
+                            Home Page</a>
+                    </li>
+                    <li>
+                        <a href="/about">
+                            <i class="fas fa-signature"></i>
+                            About</a>
+                    </li>
+                    <li>
+                        <a href="/posts">
+                            <i class="fas fa-flag"></i>
+                            Blog Posts</a>
+                    </li>
+                    <li>
+                        <a href="/feeds">
+                            <i class="fas fa-rss-square"></i>
+                            RSS Feeds</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
+                <h2 class="text-uppercase">Other Places</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://github.com/brennanbrown">
+                            <i class="fab fa-github"></i>
+                            GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/brennankbrown">
+                            <i class="fab fa-twitter"></i>
+                            Twitter</a>
+                    </li>
+                    <li>
+                        <a href="https://brennanbrown.ca">
+                            <i class="fas fa-briefcase"></i>
+                            Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="mailto:mail@brennanbrown.ca">
+                            <i class="fas fa-envelope"></i>
+                            E-mail</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-1 px-5">
+        Source Code licensed
+        <a href="https://github.com/brennanbrown/enjoyment-work/blob/master/LICENSE">MIT</a>
+        2025.
+        <br/>
+        Website content licensed
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+        |
+        <a href="https://github.com/brennanbrown/enjoyment-work">
+            View Source Code
+        </a>
+
+    </div>
+</footer>
+
+        <!-- SCRIPTS -->
+<script>
+  document
+    .getElementById("scroll-to-top")
+    .addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    });
+</script>
+
+<script type="text/javascript">
+    window.MathJax = {
+        tex: {
+            packages: ["base", "ams"]
+        },
+        loader: {
+            load: ["ui/menu", "[tex]/ams"]
+        }
+    };
+</script>
+
+<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" type="text/javascript"></script>
+
+    </body>
+</html>
