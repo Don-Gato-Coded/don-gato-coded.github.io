@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About Enjoyment Work
+title: About The Blacklist
 permalink: /about/
 content-type: eg
 author: false
