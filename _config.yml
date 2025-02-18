@@ -16,12 +16,11 @@ theme_color: white
 encoding: utf-8
 
 # Links and Social Media
-donate_link: https://ko-fi.com/brennanbrown
 repository: https://github.com/brennanbrown/enjoyment-work
 github: https://github.com/don-gato-coded
-twitter: https://twitter.com/brennankbrown
+twitter: https://twitter.com/miblanco04
 portfolio: https://brennanbrown.ca
-email: mail@brennanbrown.ca
+email: don.gato.coded@gmail.com
 
 # Build Settings
 theme: null
@@ -69,7 +68,7 @@ defaults:
       permalink: /posts/:title
       content-type: post
       category: "Post"
-      toc: true
+      toc: false
   - scope:
       path: ""
       type: notes
