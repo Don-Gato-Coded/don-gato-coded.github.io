@@ -1,4 +1,4 @@
-I"8<style>
+I"¼<style>
 .category-content a {
     text-decoration: none;
     color: #4183c4;
@@ -13,6 +13,8 @@
 <main>
     
         <h3 id="Post">Post</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/bash">Bash</a></li>
         
             <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/OhMyZsh">OhMyZsh</a></li>
         

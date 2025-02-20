@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://don-gato-coded.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://don-gato-coded.github.io//" rel="alternate" type="text/html" /><updated>2025-02-20T12:56:49-05:00</updated><id>https://don-gato-coded.github.io//feed.xml</id><title type="html">The Blacklist</title><subtitle>A Digital Garden.</subtitle><entry><title type="html">OhMyZsh</title><link href="https://don-gato-coded.github.io//posts/OhMyZsh" rel="alternate" type="text/html" title="OhMyZsh" /><published>2025-02-19T00:00:00-05:00</published><updated>2025-02-19T00:00:00-05:00</updated><id>https://don-gato-coded.github.io//posts/OhMyZsh</id><content type="html" xml:base="https://don-gato-coded.github.io//posts/OhMyZsh">&lt;p&gt;*plugins** = ([[Aliases]] copydir [[copyfile]] [[copybuffer]] [[dirhistory]] zsh_reload [[jsontools]]  [[sudo]] [[web-search]] [[Git]] zsh-syntax-highlighting zsh-autosuggestions)&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://don-gato-coded.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://don-gato-coded.github.io//" rel="alternate" type="text/html" /><updated>2025-02-20T12:57:56-05:00</updated><id>https://don-gato-coded.github.io//feed.xml</id><title type="html">The Blacklist</title><subtitle>A Digital Garden.</subtitle><entry><title type="html">Bash</title><link href="https://don-gato-coded.github.io//posts/bash" rel="alternate" type="text/html" title="Bash" /><published>2025-02-20T00:00:00-05:00</published><updated>2025-02-20T00:00:00-05:00</updated><id>https://don-gato-coded.github.io//posts/bash</id><content type="html" xml:base="https://don-gato-coded.github.io//posts/bash">&lt;p&gt;&lt;a href=&quot;Linux%20commands.md&quot;&gt;Linux commands&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;[[Bash Command Line Cheat Sheet]]&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.howtogeek.com/the-linux-bashrc-file-explained/&quot;&gt;the-linux-bashrc-file-explained&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bash, short for Bourne Again Shell, is a powerful command-line interface (CLI) and scripting language used extensively in [[Linux]] and [[macOS]]. It&apos;s a successor to the original Bourne Shell (sh) and offers a versatile way to interact with your operating system, automate tasks, and manage files.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Command Interpreter:&lt;/strong&gt; Bash allows you to directly execute commands in a terminal window, such as navigating directories, viewing files, and running programs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Scripting Language:&lt;/strong&gt; You can write scripts to automate repetitive tasks, perform complex operations, and even create custom programs.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Customization:&lt;/strong&gt; Bash offers a high degree of customization, allowing you to tailor your environment with aliases, functions, and configuration files.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Integration with the Operating System:&lt;/strong&gt; Bash provides direct access to the system&apos;s kernel and file system, making it a powerful tool for system administration and programming.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Common Uses:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;System Administration:&lt;/strong&gt; Automating tasks like backups, log analysis, and system updates.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Programming:&lt;/strong&gt; Writing scripts for data processing, file manipulation, and web scraping.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Shell Programming:&lt;/strong&gt; Creating interactive shells and custom command-line tools.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;General Productivity:&lt;/strong&gt; Streamlining tasks like file management, text processing, and network administration.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="Post" /><category term="linux" /><category term="cli" /><category term="bash" /><summary type="html">Linux commands [[Bash Command Line Cheat Sheet]] the-linux-bashrc-file-explained</summary></entry><entry><title type="html">OhMyZsh</title><link href="https://don-gato-coded.github.io//posts/OhMyZsh" rel="alternate" type="text/html" title="OhMyZsh" /><published>2025-02-19T00:00:00-05:00</published><updated>2025-02-19T00:00:00-05:00</updated><id>https://don-gato-coded.github.io//posts/OhMyZsh</id><content type="html" xml:base="https://don-gato-coded.github.io//posts/OhMyZsh">&lt;p&gt;*plugins** = ([[Aliases]] copydir [[copyfile]] [[copybuffer]] [[dirhistory]] zsh_reload [[jsontools]]  [[sudo]] [[web-search]] [[Git]] zsh-syntax-highlighting zsh-autosuggestions)&lt;/p&gt;
 
 &lt;p&gt;Oh My [[ZSH]], often abbreviated as OMZ, is a popular open-source framework designed to enhance your Z shell (Zsh) experience. It offers a wide range of features, including:&lt;/p&gt;
 
@@ -231,31 +255,4 @@ Whether you&apos;re a seasoned Linux user or a newcomer, there&apos;s always som
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.metrotimes.com/arts/metro-times-photog-doug-coombe-shows-generations-of-detroit-icons-at-ann-arbor-art-center-37880143&quot;&gt;Metro Times photog Doug Coombe shows generations of Detroit icons at Ann Arbor Art Center&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.msn.com/en-us/news/politics/morning-joe-hosts-joe-scarborough-and-mika-brzezinski-say-they-met-with-donald-trump-in-restart-of-communications/ar-AA1uikD1&quot;&gt;‘Morning Joe&apos; Hosts Joe Scarborough And Mika Brzezinski Say They Met With Donald Trump In &quot;Restart&quot; Of Communications&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Don Gato</name></author><category term="links" /><category term="tech" /><category term="sports" /><category term="news" /><summary type="html">Tech Say Goodbye to Your IDE: Meet LazyVim ChatGPT was tasked with designing a website. The result was as manipulative as you&apos;d expect - Fast Company The shape of a photon, particle of light: “something that hasn’t been seen before in physics” Aider Composer : This VS Code Extension BEATS Cursor! Sports ESPN Show Calls This Pro Duck &quot;The Best Player in Pro Football&quot; Detroit Tigers Reportedly &apos;Didn&apos;t Come Close&apos; To Extending Their Superstar Young Americans are losing faith in college and turning to skilled trades — here’s why the ‘toolbelt generation’ is taking a pass on degrees and student debt News Metro Times photog Doug Coombe shows generations of Detroit icons at Ann Arbor Art Center ‘Morning Joe&apos; Hosts Joe Scarborough And Mika Brzezinski Say They Met With Donald Trump In &quot;Restart&quot; Of Communications</summary></entry><entry><title type="html">Weather</title><link href="https://don-gato-coded.github.io//posts/weather" rel="alternate" type="text/html" title="Weather" /><published>2024-11-20T00:00:00-05:00</published><updated>2024-11-20T00:00:00-05:00</updated><id>https://don-gato-coded.github.io//posts/weather</id><content type="html" xml:base="https://don-gato-coded.github.io//posts/weather">&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot; /&gt;
-    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; /&gt;
-	    &lt;link rel=&quot;shortcut icon&quot; href=&quot;data:image/png;base64,AAABAAEAEBACAAEAAQCwAAAAFgAAACgAAAAQAAAAIAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA&quot; /&gt;
-            &lt;style&gt;
-       
-        .weather-container {
-            width: 90%; /* Set a reasonable width */
-            height: 630px; /* Adjust height for better iframe visibility */
-            margin: -20px 0; /* Margin for spacing */
-        }
-        iframe {
-            border: none;
-            width: 100%;
-            height: 100%; /* Ensure iframe takes full height of its container */
-            color-scheme: dark;
-        }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-   &amp;lt;/br&amp;gt;
-    &lt;!-- Weather Container --&gt;
-    &lt;div class=&quot;weather-container&quot;&gt;
-        &lt;iframe src=&quot;https://wttr.in/boca+raton&quot;&gt;&lt;/iframe&gt;
-    &lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;</content><author><name>Don Gato</name></author><category term="Post" /><summary type="html">&amp;lt;/br&amp;gt;</summary></entry></feed>
+&lt;/ul&gt;</content><author><name>Don Gato</name></author><category term="links" /><category term="tech" /><category term="sports" /><category term="news" /><summary type="html">Tech Say Goodbye to Your IDE: Meet LazyVim ChatGPT was tasked with designing a website. The result was as manipulative as you&apos;d expect - Fast Company The shape of a photon, particle of light: “something that hasn’t been seen before in physics” Aider Composer : This VS Code Extension BEATS Cursor! Sports ESPN Show Calls This Pro Duck &quot;The Best Player in Pro Football&quot; Detroit Tigers Reportedly &apos;Didn&apos;t Come Close&apos; To Extending Their Superstar Young Americans are losing faith in college and turning to skilled trades — here’s why the ‘toolbelt generation’ is taking a pass on degrees and student debt News Metro Times photog Doug Coombe shows generations of Detroit icons at Ann Arbor Art Center ‘Morning Joe&apos; Hosts Joe Scarborough And Mika Brzezinski Say They Met With Donald Trump In &quot;Restart&quot; Of Communications</summary></entry></feed>
