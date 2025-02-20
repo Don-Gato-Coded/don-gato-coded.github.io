@@ -18,7 +18,7 @@ body {
 }
 
 .outer-div {background-color: black;}
-.inner-div {background-color: white;}
+.inner-div {background-color: #333;}
 
 .box {
   position: absolute;
@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #555555;
+  color: white;
   font-weight: 600;
   margin-top: 20px;
 }
@@ -59,7 +59,7 @@ ol,
 table,
 span,
 blockquote {
-  color: #555555;
+  color: white;
 }
 
 p,
@@ -171,7 +171,7 @@ tr {
 }
 
 thead tr:nth-child(odd) {
-  background-color: #eee;
+  background-color: black;
 }
 
 tbody tr:nth-child(even) {
@@ -195,7 +195,7 @@ hr {
 }
 
 .site-heading h1 {
-  color: #555555;
+  color: white;
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-stretch: ultra-condensed;
   margin-bottom: 10px;
@@ -209,14 +209,14 @@ hr {
 }
 
 .dashboard {
-  border-bottom: 2px solid #f7f7f7;
+  border-bottom: 2px solid black;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .userboard {
-  background-color: #f7f7f7;
+  background-color: black;
   width: 100%;
   border: 1px grey solid;
   border-radius: 3px;
@@ -277,7 +277,7 @@ hr {
 }
 
 .menu a:hover {
-  background-color: #eee;
+  background-color: black;
   color: black;
   text-decoration: none;
   /* border-radius: 8px; */
@@ -326,7 +326,7 @@ hr {
 }
 
 .notes-page-heading {
-  color: #555555;
+  color: white;
   font-size: 15px;
   font-weight: 600;
   padding-top: 15px;
@@ -389,7 +389,7 @@ hr {
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   color: #555;
   font-size: 18px;
-  border-bottom: 1px solid #f7f7f7;
+  border-bottom: 1px solid black;
   background-color: #f7f7f7;
 }
 
@@ -410,7 +410,7 @@ hr {
 }
 
 .searchbar input[type="text"]:focus {
-  border-color: #f7f7f7;
+  border-color: black;
   box-shadow: 0 0 8px 0 #a7d0eb;
 }
 
@@ -433,7 +433,7 @@ hr {
 }
 
 .search_res:hover {
-  background-color: #eee;
+  background-color: black;
   border-radius: 5px;
 }
 
@@ -452,7 +452,7 @@ hr {
 .back-icon {
   background-color: white;
   fill: currentColor;
-  color: #555555;
+  color: white;
   margin-top: 5px;
   padding-left: 5px;
   fill: currentColor;
@@ -466,7 +466,7 @@ hr {
 }
 
 .back-p {
-  color: #555555;
+  color: white;
   text-decoration: underline;
   cursor: pointer;
   font-weight: 600;
@@ -505,7 +505,7 @@ hr {
 }
 
 .feed-title {
-  color: #555555;
+  color: white;
   margin-left: 20px;
   margin-right: 50px;
   font-size: 16px;
@@ -514,7 +514,7 @@ hr {
 }
 
 .feed-excerpt {
-  color: #555555;
+  color: white;
   margin-top: -12px;
   margin-left: 20px !important;
   margin-right: 30px;
@@ -535,7 +535,7 @@ hr {
 
 .post-metadata,
 .tag {
-  color: #555555;
+  color: white;
   display: inline-block;
   padding: 0 8px;
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -543,7 +543,7 @@ hr {
 }
 
 .tag {
-  background-color: #eee;
+  background-color: black;
 }
 
 .content a {
@@ -736,7 +736,7 @@ label.srs-toggle {
 }
 
 .related {
-  background-color: #eee;
+  background-color: black;
   width: 100%;
   min-height: 100px;
   border-radius: 8px;
@@ -791,7 +791,7 @@ label.srs-toggle {
 }
 
 .related-excerpt {
-  color: #555555 !important;
+  color: white !important;
   padding-left: 10px;
   padding-right: 5px;
   font-size: 16px !important;
@@ -1180,7 +1180,7 @@ figure img {
 }
 
 #search-input {
-  background-color: #eee;
+  background-color: black;
   color: #333;
   border-radius: 8px;
 }
@@ -1195,7 +1195,7 @@ figure img {
 }
 
 #author {
-  background-color: #eee;
+  background-color: black;
   border-radius: 8px;
   padding: 10px;
 }
@@ -1211,7 +1211,7 @@ figure img {
   font-weight: 600;
   word-spacing: -3px;
   background: #333;
-  color: #eee;
+  color: black;
 }
 
 #footer h2 {
