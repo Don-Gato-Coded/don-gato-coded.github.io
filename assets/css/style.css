@@ -17,6 +17,9 @@ body {
   counter-reset: sidenote-counter;
 }
 
+.outer-div {background-color: black;}
+.inner-div {background-color: white;}
+
 .box {
   position: absolute;
   top: 0px;

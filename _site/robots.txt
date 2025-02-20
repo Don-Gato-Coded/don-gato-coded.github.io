@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://enjoyment-work.netlify.app//sitemap.xml
+Sitemap: https://don-gato-coded.github.io//sitemap.xml
