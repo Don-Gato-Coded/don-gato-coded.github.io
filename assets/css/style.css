@@ -15,6 +15,7 @@ body {
   font-family: Inter, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", Ubuntu, sans-serif;
   min-height: 450px;
   counter-reset: sidenote-counter;
+  color: mediumslateblue;
 }
 
 .outer-div {background-color: black;}
@@ -252,7 +253,7 @@ hr {
 }
 
 .main-site-subheader {
-  border-bottom: 1px solid #f7f7f7;
+  /* border-bottom: 1px solid #f7f7f7; */
   padding-left: 15px;
 }
 
@@ -547,7 +548,7 @@ hr {
 }
 
 .content a {
-  color: #0357ac;
+  color: mediumslateblue;
   text-decoration: none;
 }
 
@@ -964,7 +965,7 @@ label.srs-toggle {
 
 @media screen and (max-width: 1200px) {
   .related-group {
-    background-color: #ededed !important;
+    background-color: black !important;
     margin-left: 10px;
     width: 90% !important;
     height: 100%;
@@ -1198,6 +1199,7 @@ figure img {
   background-color: black;
   border-radius: 8px;
   padding: 10px;
+  margin-bottom: 15px;
 }
 
 #author img {
