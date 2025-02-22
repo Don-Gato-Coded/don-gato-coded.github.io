@@ -19,7 +19,10 @@ body {
 }
 
 .outer-div {background-color: black;}
-.inner-div {background-color: #333;}
+.inner-div {background-color: #333;
+  border-right: 5px solid mediumslateblue;
+  border-left: 5px solid mediumslateblue;
+}
 
 .box {
   position: absolute;
@@ -278,7 +281,7 @@ hr {
 }
 
 .menu a:hover {
-  background-color: black;
+  background-color: mediumpurple;
   color: black;
   text-decoration: none;
   /* border-radius: 8px; */
@@ -767,7 +770,7 @@ label.srs-toggle {
 }
 
 .related-group:hover {
-  background-color: #ddd;
+  background-color: #333;
 }
 
 .related-group a {
@@ -837,7 +840,7 @@ label.srs-toggle {
 }
 
 .context-menu-res li:hover {
-  color: #555;
+  color: #333;
   background-color: #f4f4f4;
 }
 
@@ -893,7 +896,7 @@ label.srs-toggle {
 }
 
 .context-menu__link:hover {
-  color: #555;
+  color: #333;
   background-color: #f4f4f4;
 }
 
