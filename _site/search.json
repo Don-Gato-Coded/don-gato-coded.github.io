@@ -2,6 +2,14 @@
   
     {
 
+      "title"    : "Quotes",
+      "url"      : "/posts/quotes",
+      "content"  : "Zappa middle finger.\n    \n    “If you end up with a boring miserable life because you listened to your mom, your dad, your teacher, your priest, or some guy on television telling you how to do your shit, then you deserve it.” \n    ― Frank Zappa\n    \n        \n\n\n\n\n  “Modern man, instead of attempting to raise himself to truth, seeks to drag truth down to his own level.”\n― René Guénon, The Crisis of the Modern World"
+
+    },
+  
+    {
+
       "title"    : "Bash",
       "url"      : "/posts/bash",
       "content"  : "Linux commands\n\n\n  \n    [[Bash shortcuts]]\n  \n  \n    the-linux-bashrc-file-explained\n  \n\n\nBash, short for Bourne Again Shell, is a powerful command-line interface (CLI) and scripting language used extensively in [[Linux]] and [[macOS]]. It's a successor to the original Bourne Shell (sh) and offers a versatile way to interact with your operating system, automate tasks, and manage files.\n\nKey Features:\n\n\n  \n    Command Interpreter: Bash allows you to directly execute commands in a terminal window, such as navigating directories, viewing files, and running programs.\n  \n  \n    Scripting Language: You can write scripts to automate repetitive tasks, perform complex operations, and even create custom programs.\n  \n  \n    Customization: Bash offers a high degree of customization, allowing you to tailor your environment with aliases, functions, and configuration files.\n  \n  \n    Integration with the Operating System: Bash provides direct access to the system's kernel and file system, making it a powerful tool for system administration and programming.\n  \n\n\nCommon Uses:\n\n\n  \n    System Administration: Automating tasks like backups, log analysis, and system updates.\n  \n  \n    Programming: Writing scripts for data processing, file manipulation, and web scraping.\n  \n  \n    Shell Programming: Creating interactive shells and custom command-line tools.\n  \n  \n    General Productivity: Streamlining tasks like file management, text processing, and network administration."

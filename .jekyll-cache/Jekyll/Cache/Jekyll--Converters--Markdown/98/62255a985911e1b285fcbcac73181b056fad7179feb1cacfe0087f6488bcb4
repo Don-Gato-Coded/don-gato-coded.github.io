@@ -1,4 +1,4 @@
-I"y#<style>
+I"s%<style>
 .category-content a {
     text-decoration: none;
     color: #4183c4;
@@ -264,6 +264,24 @@
             <li id="category-content"><a href="/posts/bash">Bash</a></li>
         
             <li id="category-content"><a href="/posts/bash-shortcuts">Bash Shortcuts</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="quotes">Quotes</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/quotes">Quotes</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="zappa">Zappa</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/quotes">Quotes</a></li>
         
         </ul>
     </div>
