@@ -18,6 +18,14 @@
   
     {
 
+      "title"    : "Bluesky",
+      "url"      : "/posts/bluesky",
+      "content"  : "test 1"
+
+    },
+  
+    {
+
       "title"    : "Quotes",
       "url"      : "/posts/quotes",
       "content"  : "Zappa middle finger.\n    \n    “If you end up with a boring miserable life because you listened to your mom, your dad, your teacher, your priest, or some guy on television telling you how to do your shit, then you deserve it.” \n    ― Frank Zappa\n    \n        \n\n\n\n\n  “Modern man, instead of attempting to raise himself to truth, seeks to drag truth down to his own level.”\n― René Guénon, The Crisis of the Modern World\n\n\n\n  “I believe that the extraordinary should certainly be pursued. But extraordinary claims require extraordinary evidence.”\n— Carl Sagan, Broca’s Brain: Reflections on the Romance of Science\n\n\n\n  “Religion is regarded by the common people as true, by the wise as false, and by the rulers as useful.”\n— Lucius Annaeus Seneca"
@@ -74,6 +82,14 @@
   
     {
 
+      "title"    : "sky",
+      "url"      : "/posts/sky",
+      "content"  : "rest"
+
+    },
+  
+    {
+
       "title"    : "Q Lazzarus",
       "url"      : "/posts/q-lazzarus",
       "content"  : "It was like she was possessed: How Q Lazzarus made Silence of the Lambs most bewitching song and then vanished\nIn August 2019, the New York film-maker Eva Aridjis Fuentes embarked on a cab ride that would change her life. Though her driver sported sunglasses and a turban, Aridjis Fuentes thought she looked eerily familiar. “The driver played Neil Young’s Harvest album in its entirety; we sang Heart of Gold together. I asked if she’d ever seen Neil play. She said: ‘Oh no, my concert days are long over’. So then I asked if she’d ever seen Q Lazzarus.”\n\nQ Lazzarus was the stage name of Diane Luckey, a singer from the 80s whose song Goodbye Horses had soundtracked Buffalo Bill’s infamous nipple-tweaking scene in The Silence of the Lambs. The track became a cult classic, covered by Bloc Party’s Kele Okereke, Deftones’ Chino Moreno and MGMT among others. Q vanished in the mid-90s, with many, including friends and collaborators, believing she was dead. But Aridjis Fuentes – who regularly played Goodbye Horses at club nights – had a hunch that Luckey herself was driving this taxicab. “She looked in the rearview, said, ‘Oh, I’ve heard of her’, but abruptly changed the subject,” Aridjis Fuentes remembers. Later, though, the driver admitted: “I’m Q.”\n\n\n\n‘It was like she was possessed’: how Q Lazzarus made Silence of the Lambs’ most bewitching song – and then vanished"
@@ -92,7 +108,7 @@
 
       "title"    : "Threads Astronomy",
       "url"      : "/posts/threads-astronomy",
-      "content"  : "View on Threads\n\n\n     View on Threads\n\n\\\n\n     View on Threads"
+      "content"  : "View on Threads\n\n\n     View on Threads\n\n\\\n\n     View on Threads\n\n\nastronaut don pettit’s new image made my jaw drop. \n\nit’s SO beautiful!!![image or embed]&mdash; Jasmine 🌌🔭 (@astrojaz.bsky.social) February 26, 2025 at 2:57 PM"
 
     },
   
@@ -148,7 +164,7 @@
 
       "title"    : "embeded",
       "url"      : "/posts/embed-test",
-      "content"  : "Threads widget"
+      "content"  : "Threads widget  \n\n\nastronaut don pettit’s new image made my jaw drop. \n\nit’s SO beautiful!!![image or embed]&mdash; Jasmine 🌌🔭 (@astrojaz.bsky.social) February 26, 2025 at 2:57 PM"
 
     },
   
