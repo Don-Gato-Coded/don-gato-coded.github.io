@@ -2,7 +2,7 @@
 title: 'My sex doll is mad at me: A short story'
 date: '2025-02-27'
 source: https://www.technologyreview.com/2025/02/14/1111382/robots-sex-doll-relationships-fiction-speculation-customer-service/
-author: "[[Leo Herrera]]"
+author: "Leo Herrera"
 published: 2025-02-14
 created: 2025-02-27
 description: A short story imagining the not-too-distant future of human-robot intimacy. Can customer service help when your robot’s emotional connectivity is on the fritz?
