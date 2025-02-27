@@ -1,10 +1,6 @@
 ---
 title: 'My sex doll is mad at me: A short story'
-tags: []
 date: '2025-02-27'
----
---
-title: "My sex doll is mad at me: A short story"
 source: https://www.technologyreview.com/2025/02/14/1111382/robots-sex-doll-relationships-fiction-speculation-customer-service/
 author: "[[Leo Herrera]]"
 published: 2025-02-14
