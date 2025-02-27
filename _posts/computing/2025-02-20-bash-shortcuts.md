@@ -1,4 +1,5 @@
 ---
+categories: computing
 title: Bash Shortcuts
 tags:
   - linux

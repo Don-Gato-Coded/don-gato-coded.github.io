@@ -1,4 +1,5 @@
 ---
+categories: computing
 title: Javascript
 tags:
   - javascript
