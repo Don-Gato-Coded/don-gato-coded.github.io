@@ -141,9 +141,10 @@ table {
 
 th,
 td {
-  color: #555;
+  color: white;
   padding: 8px;
   text-align: left;
+  background-color: #333;
 }
 
 td {
@@ -175,11 +176,11 @@ tr {
 }
 
 thead tr:nth-child(odd) {
-  background-color: black;
+  background-color: antiquewhite;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #f7f7f7;
+  background-color: white;
 }
 
 hr {

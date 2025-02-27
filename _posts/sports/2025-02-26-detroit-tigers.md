@@ -1,7 +1,7 @@
 ---
 title: Detroit Tigers
 category: sports
-tags: Detroit_Tigers michigan sports
+tags: Detroit_Tigers michigan sports baseball
 toc: false
 ---
 
@@ -64,5 +64,4 @@ Sporting News Supplement photo insert for Ty Cobb and Johannes "Honus" Wagner, s
 
 ![](/assets/img/672542726_408ff76448_c.jpg)
 <br/>
-
 ![](/assets/img/7625926818_9fb1b6facf_c.jpg)

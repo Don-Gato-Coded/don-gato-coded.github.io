@@ -2,7 +2,7 @@
 title: "Michigan Sports Teams"
 category: sports
 layout: post
-tags: baseball football hockey
+tags: baseball football hockey sports
 ---
 
 
