@@ -1,5 +1,6 @@
 ---
 title: Q Lazzarus
+category: Movies
 tags:
   - movies
   - music
