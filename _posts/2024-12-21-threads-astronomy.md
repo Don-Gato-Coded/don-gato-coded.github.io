@@ -5,6 +5,7 @@ draft: false
 title: 'Threads Astronomy'
 author: DonGato
 tags: [threads, astronomy]
+category: Social_media
 ---
 
 

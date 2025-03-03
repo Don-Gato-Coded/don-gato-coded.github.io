@@ -1,6 +1,6 @@
 ---
 title: Detroit Tigers
-category: sports
+category: Sports
 tags: Detroit_Tigers michigan sports baseball
 toc: false
 ---

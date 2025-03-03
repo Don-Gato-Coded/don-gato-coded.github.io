@@ -1,10 +1,11 @@
 ---
-title: 'embeded'
+title: 'Embeded'
 author: Don Gato
 layout: post
 
 categories:
-  - Tech
+  - Social_media
+tags: threads
 ---
 
 
@@ -14,4 +15,3 @@ categories:
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:f3k4iipaz7ara5xvp3p42moe/app.bsky.feed.post/3lj45xhbsh22h" data-bluesky-cid="bafyreihvfii5k3pdzow3tym6ox6h6i7j3tokzxvzaen7e6soazxajpcp6u"><p lang="en">astronaut don pettit’s new image made my jaw drop. 
 
-it’s SO beautiful!!!<br><br><a href="https://bsky.app/profile/did:plc:f3k4iipaz7ara5xvp3p42moe/post/3lj45xhbsh22h?ref_src=embed">[image or embed]</a></p>&mdash; Jasmine 🌌🔭 (<a href="https://bsky.app/profile/did:plc:f3k4iipaz7ara5xvp3p42moe?ref_src=embed">@astrojaz.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:f3k4iipaz7ara5xvp3p42moe/post/3lj45xhbsh22h?ref_src=embed">February 26, 2025 at 2:57 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
