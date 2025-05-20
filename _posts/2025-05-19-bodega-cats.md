@@ -1,8 +1,6 @@
 ---
-'0':
-  key: title
-  type: text
-  value: ''
+title:  Bodega Cats
+category: social_media
 tags: cats bluesky
 ---
 

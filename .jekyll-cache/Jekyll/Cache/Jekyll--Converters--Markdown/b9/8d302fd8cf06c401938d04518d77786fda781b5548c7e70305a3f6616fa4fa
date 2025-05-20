@@ -1,4 +1,4 @@
-I"§ <style>
+I"w!<style>
 .category-content a {
     text-decoration: none;
     color: #4183c4;
@@ -145,6 +145,11 @@
         <h3 id="thread">Thread</h3>
         
             <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/Thread-1">Thread-1-2025-05-17</a></li>
+        
+    
+        <h3 id="social_media">Social_media</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/bodega-cats">Bodega Cats</a></li>
         
     
     <br />

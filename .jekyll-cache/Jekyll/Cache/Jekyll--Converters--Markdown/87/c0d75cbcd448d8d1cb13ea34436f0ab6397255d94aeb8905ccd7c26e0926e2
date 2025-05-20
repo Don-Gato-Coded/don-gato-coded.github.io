@@ -1,4 +1,4 @@
-I"v4<style>
+I"„6<style>
 .category-content a {
     text-decoration: none;
     color: #4183c4;
@@ -397,6 +397,24 @@
         <ul class="overflow-auto" id="tag-grid">
         
             <li id="category-content"><a href="/posts/who_me">Techie pulled all-nighter that turned into an all-weekender</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="cats">Cats</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/bodega-cats">Bodega Cats</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="bluesky">Bluesky</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/bodega-cats">Bodega Cats</a></li>
         
         </ul>
     </div>
