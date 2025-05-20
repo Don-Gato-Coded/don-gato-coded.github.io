@@ -1,157 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <!-- HEAD -->
-
-<head>
-    <!-- More information: https://htmlhead.dev/ -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport"/>
-    <meta content="Jekyll" name="generator">
-    <link href="LICENSE" rel="license">
-
-    <meta content="The Blacklist" property="og:site_name"/>
-    <meta content="A Digital Garden." property="og:description">
-    <meta content="https://don-gato-coded.github.io//about/" property="article:author">
-    <meta name="Description" content="A Digital Garden."><meta content="website" property="og:type">
-        <meta content="https://don-gato-coded.github.io//" property="og:url"><title>The Blacklist
-        </title>
-
-        <meta name="application-name" content="The Blacklist">
-        <meta name="theme-color" content="white">
-        <link rel="archives" href="https://don-gato-coded.github.io//archives/">
-
-        <meta content="index,follow" name="robots"><!-- All Search Engines -->
-        <meta content="index,follow" name="googlebot"><!-- Google Specific -->
-        
-            <!-- Font Awesome 5 -->
-        <script crossorigin="anonymous" src="https://kit.fontawesome.com/e9dddf84a6.js"></script>
-
-        <link rel="icon" href="/assets/img/favicon.png" type="image/png" sizes="16x16"/>
-        <link rel="canonical" href="https://don-gato-coded.github.io//">
-        <link rel="apple-touch-icon" href="https://brennanbrown.ca/img/avatar.jpg">
-
-        <!-- Bootstrap core CSS -->
-        <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" rel="stylesheet">
-        <!-- CSS -->
-        <link class="default" href="/assets/css/style.css" media="all" rel="stylesheet"/>
-
-        <!--[if IE]>
-        <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
-        <![endif]-->
-            <!--<link href="/assets/css/prism.css" rel="stylesheet" />-->
-        <link rel="alternate" type="application/rss+xml" href="https://don-gato-coded.github.io//feed.xml">
-    </head
-</head>
-
-    <body>
-        <a class="skip-main" href="#content">Skip to main content</a>
-        <!-- MAIN CONTENT -->
-        <main class="flex-shrink-0" role="main">
-            <div class="row justify-content-center pb-3 outer-div">
-                <div class="col-md-8 col-sm-12 inner-div">
-                    <!-- HEADER -->
-<header class="mb-4">
-    <div class="dashboard disable-select">
-        <div class="mb-2 text-center">
-            <h1 class="p-2 mt-2" id="site-header">
-                <a href="/">The Blacklist</a>
-                <br class="d-md-none d-block">
-                <small>
-                     — Crossed off every list. 
-                </small>
-            </h1>
-        </div>
-        <div class="userboard profile-board-col">
-            <div class="username">
-                <span>
-                    <a " href="/about">DonGato</a>
-                </span>
-            </div>
-            <div class=" userdesc">
-                <p>A Digital Garden.</p>
-            </div>
-            <div class="link-to-notes text-right">
-                <i class="fas fa-link"></i>
-                <a href="/notes">://don-gato-coded.github.io//notes</a>
-            </div>
-        </div>
-    </div>
-    <div class="main-site-subheader menu disable-select text-center">
-        <div class="about">
-            <a " href="/about">
-                <i class=" fas fa-signature"></i>
-                About
-            </a>
-        </div>
-        <div class="hashtags">
-            <a " href="/tags">
-                <i class=" fas fa-hashtag"></i>
-                Tags
-            </a>
-        </div>
-        <div class="categories">
-            <a " href="/categories">
-                <i class=" far fa-folder-open"></i>
-                Categories
-            </a>
-        </div>
-        <div class="archive">
-            <a " href="/archive">
-                <i class=" fas fa-archive"></i>
-                Archive
-            </a>
-        </div>
-        <div class="rss">
-            <a " href="/feed.xml">
-                <i class=" fas fa-rss"></i>
-                RSS
-            </a>
-        </div>
-        <div class="donate">
-            <a href="" ">
-                <i class=" fas fa-dollar-sign"></i>
-                Donate
-            </a>
-        </div>
-    </div>
-    <div class="searchbar search-container sans">
-        <i aria-hidden="true" class="fa fa-search"></i>
-        <input autocomplete="off" id="search-input" oninput="changeResultContainerDisp(this.value)" placeholder="Search Enjoyment Work..." type="text"/>
-        <label for="search-input"></label>
-        <ul id="results-container"></ul>
-    </div>
-    <script src="/assets/js/simple-jekyll-search.min.js"></script>
-    <script>
-        function changeResultContainerDisp(val) {
-            if (val) {
-                document.getElementById("results-container").style.display = "block";
-                document.getElementById("search-input").addEventListener('blur', function () {
-                    document.addEventListener('click', function (event) {
-                        var isClickInside = document.getElementById("results-container").contains(event
-                            .target);
-                        if (!isClickInside) {
-                            document.getElementById("results-container").style.display = "none";
-                        }
-                    })
-                })
-            } else {
-                document.getElementById("results-container").style.display = "none";
-            }
-        }
-        var sjs = SimpleJekyllSearch({
-            searchInput: document.getElementById('search-input'),
-            resultsContainer: document.getElementById('results-container'),
-            json: '/search.json',
-            searchResultTemplate: '<li class="search_res" style="list-style: none;"><a href="https://don-gato-coded.github.io/{url}" color: #555555;"><p><strong>></strong> {title}</p></a></li>',
-            noResultsText: 'No results found. Try another search.',
-            fuzzy: false,
-            limit: 5
-        })
-    </script></header>
-                    
-                    <div id="content"><article class="post">
-    
-    <div class="post-content"><!-- Parse internal links, external links, transclusions, etc. and manipulate the content to reflect it accordingly --><div class="content"><h3 id="collect-connect-create">Collect. Connect. Create.</h3>
+I"vK<h3 id="collect-connect-create">Collect. Connect. Create.</h3>
 
 <h2 id="about-the-blacklist">About The Blacklist</h2>
 
@@ -324,7 +171,7 @@ tags:notes</p>
       <h2><a href="/posts/OhMyZsh">OhMyZsh</a></h2>
       <span>2025-02-19</span>
       
-        <p><p>*plugins** = (<a style="background-color:#ffffc4;" href="javascript:void(0)">Aliases</a> copydir <a style="background-color:#ffffc4;" href="javascript:void(0)">copyfile</a> <a style="background-color:#ffffc4;" href="javascript:void(0)">copybuffer</a> <a style="background-color:#ffffc4;" href="javascript:void(0)">dirhistory</a> zsh_reload <a style="background-color:#ffffc4;" href="javascript:void(0)">jsontools</a>  <a style="background-color:#ffffc4;" href="javascript:void(0)">sudo</a> <a style="background-color:#ffffc4;" href="javascript:void(0)">web-search</a> <a style="background-color:#ffffc4;" href="javascript:void(0)">Git</a> zsh-syntax-highlighting zsh-autosuggestions)</p>
+        <p><p>*plugins** = ([[Aliases]] copydir [[copyfile]] [[copybuffer]] [[dirhistory]] zsh_reload [[jsontools]]  [[sudo]] [[web-search]] [[Git]] zsh-syntax-highlighting zsh-autosuggestions)</p>
 </p>
       
     </li>
@@ -342,77 +189,9 @@ tags:notes</p>
       <h2><a href="/posts/linux">Linux</a></h2>
       <span>2025-02-17</span>
       
-        <p><p><span class="infotip"><a href="/posts/bash">Bash</a><span class="right bottom"><span class="infotip-title">Bash</span><br/><span class="infotip-excerpt">Linux commands<br />
-<br />
-<br />
-  <br />
-    [[Bash shortcuts]]<br />
-  <br />
-  <br />
-    the-linux-bashrc-file-explained<br />
-  <br />
-<br />
-<br />
-Bash, short for Bourne Again Shell, is a powerful command-line interface (CLI) and scripting language used extensively in [[Linux]] and [[macOS]]. It's a successor to the original Bourne Shell (sh) and offers a versatile way to interact with your operating system, automate tasks, and manage files.<br />
-<br />
-Key Features:<br />
-<br />
-<br />
-  <br />
-    Command Interpreter: Bash allows you to directly execute commands in a terminal wind...</span><i></i></span></span><br />
-<span class="infotip"><a href="/posts/zsh">ZSH</a><span class="right bottom"><span class="infotip-title">ZSH</span><br/><span class="infotip-excerpt"><br />
-<br />
-Zsh, or the Z shell, is a powerful and customizable command-line shell for Unix-like systems. It's known for its many features and flexibility, making it a popular choice among developers and power users.  <br />
-<br />
-**** 10 Zsh Tips &amp; Tricks: Configuration, Customization &amp; Usage - SitePoint***<br />
-<br />
-<br />
-  <br />
-    Autocompletion: Zsh provides powerful autocompletion for commands, file names, options, and more, saving you time and effort.<br />
-  <br />
-  <br />
-    Syntax highlighting: Zsh can highlight different parts ...</span><i></i></span></span><br />
-<span class="infotip"><a href="/posts/bash-shortcuts">Bash Shortcuts</a><span class="right bottom"><span class="infotip-title">Bash Shortcuts</span><br/><span class="infotip-excerpt"><br />
-<br />
-<br />
-  <br />
-    <br />
-      Moving the cursor<br />
-       <br />
-    <br />
-  <br />
-  <br />
-    <br />
-      Go to the beginning of the line (Home).<br />
-      Ctrl+a<br />
-    <br />
-    <br />
-      Go to the End of the line (End).<br />
-      Ctrl+e<br />
-    <br />
-    <br />
-      Previous command (Up arrow).<br />
-      Ctrl+p<br />
-    <br />
-    <br />
-      Next command (Down arrow).<br />
-      Ctrl+n<br />
-    <br />
-    <br />
-      Back (left) one word.<br />
-      Alt+b<br />
-    <br />
-    <br />
-      Forward (right) one word.<br />
-      Alt+f<br />
-    <br />
-    <br />
-      Forward one character.<br />
-      Ctrl+f<br />
-    <br />
-    <br />
-      Backward one character.<br />
-      C...</span><i></i></span></span></p>
+        <p><p>[[Bash]]<br />
+[[ZSH]]<br />
+[[Bash Shortcuts]]</p>
 </p>
       
     </li>
@@ -471,53 +250,11 @@ Zsh, or the Z shell, is a powerful and customizable command-line shell for Unix-
       <h2><a href="/posts/Michigan_Sports">Michigan Sports Teams</a></h2>
       <span>2024-11-26</span>
       
-        <p><h2 id="detroit-lions"><span class="infotip"><a href="/posts/lions">Detroit Lions</a><span class="right bottom"><span class="infotip-title">Detroit Lions</span><br/><span class="infotip-excerpt"><br />
-  Detroit Lions Home<br />
-  Detroit Lions Scores, Stats and Highlights - ESPN<br />
-  NFL.com - Detroit Lions<br />
-  Detroit Lions Den<br />
-    @DetroitlLionsNFL<br />
-  <br />
-  instagram<br />
-  threads<br />
-<br />
-<br />
-<br />
-   <br />
- <br />
- <br />
- <br />
-<br />
- <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
- View this post on Instagram            A post shared by Detroit Lions (@detroitlionsnfl)<br />
-<br />
-<br />
-</span><i></i></span></span></h2>
-<h2 id="detroit-tigers"><span class="infotip"><a href="/posts/detroit-tigers">Detroit Tigers</a><span class="right bottom"><span class="infotip-title">Detroit Tigers</span><br/><span class="infotip-excerpt"><br />
-  mlb.com: tigers<br />
-  ESPN: Detroit Tigers<br />
-  Instagram: @tigers<br />
-  Threads: @tigers<br />
-  blessyouboys.com<br />
-  freep: Detroit Tigers<br />
-  baseball-reference.com: Detroit Tigers<br />
-<br />
-<br />
-<br />
-<br />
-Description:<br />
-Sporting News Supplement photo insert for Ty Cobb and Johannes "Honus" Wagner, sometimes known as "Hans" Wagner. This photo is when Cobb played for the Detroit Tigers and Wagner played for the Pittsburgh Pirates.<br />
-This work is licensed under a [Creative Commons Attribution-NonCommercial-No Derivative Works 4.0 Int...</span><i></i></span></span></h2>
-<h2 id="detroit-pistons"><a style="background-color:#ffffc4;" href="javascript:void(0)">Detroit Pistons</a></h2>
-<h2 id="detroit-red-wings"><a style="background-color:#ffffc4;" href="javascript:void(0)">Detroit Red Wings</a></h2>
-<h2 id="michigan-wolverines"><a style="background-color:#ffffc4;" href="javascript:void(0)">Michigan Wolverines</a></h2>
+        <p><h2 id="detroit-lions">[[Detroit Lions]]</h2>
+<h2 id="detroit-tigers">[[Detroit Tigers]]</h2>
+<h2 id="detroit-pistons">[[Detroit Pistons]]</h2>
+<h2 id="detroit-red-wings">[[Detroit Red Wings]]</h2>
+<h2 id="michigan-wolverines">[[Michigan Wolverines]]</h2>
 </p>
       
     </li>
@@ -663,11 +400,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-No Der
       <h2><a href="/posts/How-to-use-enjoyment-work-features-on-your-website">How to use Enjoyment work features on your website</a></h2>
       <span>2020-02-01</span>
       
-        <p><p>Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in <span class="infotip"><a href="/posts/Exploring-the-features-of-enjoyment-work">Exploring the features of Enjoyment work</a><span class="right bottom"><span class="infotip-title">Exploring the features of Enjoyment work</span><br/><span class="infotip-excerpt">Introduction<br />
-<br />
-Essentiality is the heart of any good software, and this theme is designed to ensure that I don't add things that I won't use on a daily basis or not have things that would be important for my personal usecase. It has been designed carefully to get rid of all the feature creeps, bloatwares, etc. i.e., no bootstrap, no semantic, no jquery, no nothing…<br />
-<br />
-That said, this is a ready made theme and I am making it public so that more number of people will use it and enjoy the experienc...</span><i></i></span></span>. So without further ado, let's get started.</p>
+        <p><p>Welcome to this feature usage tour. This is going to be another short post that describes how to use all the fancy features we saw in [[Exploring the features of Enjoyment work]]. So without further ado, let's get started.</p>
 </p>
       
     </li>
@@ -682,119 +415,4 @@ That said, this is a ready made theme and I am making it public so that more num
     </li>
   
 </ul>
-
-</div></div>
-</article></div>
-                </div>
-            </div>
-                <button class="scroll-to-top" id="scroll-to-top">
-                    UP <i class="fa fa-chevron-up"></i>
-                </button>
-            </div>
-        </main>
-        <!-- FOOTER -->
-<footer class="page-footer font-small blue" id="footer">
-    <div class="container-fluid text-sm-left">
-        <div class="row">
-            <div class="col-sm-6 mt-sm-0 my-3">
-                <h2 class="text-uppercase text-center">About
-                    The Blacklist</h2>
-                <p class="text-justify text-white mx-3">
-                    <small>The phrase "digital garden" is a metaphor for thinking about writing and creating.</small>
-                </p>
-            </div>
-            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
-                <h2 class="text-uppercase">Directory</h2>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="/home">
-                            <i class="fas fa-home"></i>
-                            Home Page</a>
-                    </li>
-                    <li>
-                        <a href="/about">
-                            <i class="fas fa-signature"></i>
-                            About</a>
-                    </li>
-                    <li>
-                        <a href="/posts">
-                            <i class="fas fa-flag"></i>
-                            Blog Posts</a>
-                    </li>
-                    <li>
-                        <a href="/feeds">
-                            <i class="fas fa-rss-square"></i>
-                            RSS Feeds</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-sm-3 col-6 mb-sm-0 mb-1">
-                <h2 class="text-uppercase">Other Places</h2>
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="https://github.com/don-gato-coded">
-                            <i class="fab fa-github"></i>
-                            GitHub</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/miblanco04">
-                            <i class="fab fa-twitter"></i>
-                            Twitter</a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <i class="fas fa-briefcase"></i>
-                            Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="mailto:don-gato-coded@gmail.com">
-                            <i class="fas fa-envelope"></i>
-                            E-mail</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright text-center py-1 px-5">
-        Source Code licensed
-        <a href="https://github.com/brennanbrown/enjoyment-work/blob/master/LICENSE">MIT</a>
-        2025.
-        <br/>
-        Website content licensed
-        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
-        |
-        <a href="https://github.com/brennanbrown/enjoyment-work">
-            View Source Code
-        </a>
-
-    </div>
-</footer>
-
-        <!-- SCRIPTS -->
-<script>
-  document
-    .getElementById("scroll-to-top")
-    .addEventListener("click", function () {
-      window.scrollTo({
-        top: 0,
-        left: 0,
-        behavior: "smooth",
-      });
-    });
-</script>
-
-<script type="text/javascript">
-    window.MathJax = {
-        tex: {
-            packages: ["base", "ams"]
-        },
-        loader: {
-            load: ["ui/menu", "[tex]/ams"]
-        }
-    };
-</script>
-
-<script async id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" type="text/javascript"></script>
-
-    </body>
-</html>
+:ET
