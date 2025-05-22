@@ -1,0 +1,18 @@
+I"ö<p>This is some content before your weather widget.</p>
+
+<div class="container mt-3">
+    <div class="d-inline-block">
+        <img id="weather-img" class="img-fluid rounded" src="https://wttr.in/Detroit_0pq_transparency=200_lang=en.png" alt="Current weather in Monroe" />
+        <form id="weather-form">
+            <div class="input-group mt-1">
+                <input id="weather-input" class="form-control" type="text" placeholder="Weather in..." aria-label="Weather in..." />
+                <div class="input-group-append">
+                    <button id="weather-btn" class="btn btn-primary" type="button">OK</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<p>This is some content after your weather widget.</p>
+:ET
