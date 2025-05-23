@@ -18,5 +18,5 @@ permalink: /
         <p>{{ post.excerpt }}</p>
       {% endif %}
     </li>
-  {% endfor %}
+  {% endfor %}4
 </ul>
