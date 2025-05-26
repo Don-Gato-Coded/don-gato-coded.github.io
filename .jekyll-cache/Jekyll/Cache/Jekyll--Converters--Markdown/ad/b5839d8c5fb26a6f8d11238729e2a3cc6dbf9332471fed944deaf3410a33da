@@ -1,4 +1,4 @@
-I"á"<style>
+I"‰#<style>
 .category-content a {
     text-decoration: none;
     color: #4183c4;
@@ -13,8 +13,6 @@
 <main>
     
         <h3 id="Post">Post</h3>
-        
-            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/notes">Notes</a></li>
         
             <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/weather">Weather</a></li>
         
@@ -150,6 +148,10 @@
         
     
         <h3 id="social_media">Social_media</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/coco-dog">2025-05-24-Coco_Dog.md</a></li>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/notes">2025-05-20-notes.md</a></li>
         
             <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/bodega-cats">Bodega Cats</a></li>
         

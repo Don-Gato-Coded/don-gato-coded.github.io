@@ -1,4 +1,4 @@
-I"c9<style>
+I"ù=<style>
 .category-content a {
     text-decoration: none;
     color: #4183c4;
@@ -422,6 +422,15 @@
     </div>
     
     <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="notes">Notes</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/notes">2025-05-20-notes.md</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
         <h3 id="musicians">Musicians</h3>
         <ul class="overflow-auto" id="tag-grid">
         
@@ -435,6 +444,33 @@
         <ul class="overflow-auto" id="tag-grid">
         
             <li id="category-content"><a href="/posts/jack-white">Jack White‚Äôs new Fender Signature Collection</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="dog">Dog</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/coco-dog">2025-05-24-Coco_Dog.md</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="instagram">Instagram</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/coco-dog">2025-05-24-Coco_Dog.md</a></li>
+        
+        </ul>
+    </div>
+    
+    <div class="col-xl-4 col-lg-6 col-12">
+        <h3 id="mexican">Mexican</h3>
+        <ul class="overflow-auto" id="tag-grid">
+        
+            <li id="category-content"><a href="/posts/coco-dog">2025-05-24-Coco_Dog.md</a></li>
         
         </ul>
     </div>
