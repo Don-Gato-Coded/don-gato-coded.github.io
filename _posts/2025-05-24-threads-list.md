@@ -1,8 +1,9 @@
 ---
-title:threads_list.md
+title: threads_list.md
 category: social_media
 tags: threads
 ---
+
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:cz7v7uhcyt2kl3utcn6feaw6/app.bsky.feed.post/3lmpncgikfs2b" data-bluesky-cid="bafyreibqsl3c7nzq4i3zta7ckt5rss3nsxohcc2m5grnq3l3w56kilb3ly" data-bluesky-embed-color-mode="system"><p lang="en">Purple Fatigue
 
