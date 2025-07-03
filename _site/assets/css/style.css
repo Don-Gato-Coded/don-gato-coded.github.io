@@ -1203,7 +1203,7 @@ figure img {
   background-color: black;
   border-radius: 8px;
   padding: 10px;
-  margin-bottom: 15px;
+  margin: 15px 0;
 }
 
 #author img {
@@ -1218,6 +1218,8 @@ figure img {
   word-spacing: -3px;
   background: #333;
   color: black;
+  margin-top: 1em;
+  
 }
 
 #footer h2 {
@@ -1237,3 +1239,13 @@ figure img {
 #tag-grid {
   max-height: 350px;
 }
+
+/* Brennan's Modifications End */
+
+weather-widget {
+  float: left;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;

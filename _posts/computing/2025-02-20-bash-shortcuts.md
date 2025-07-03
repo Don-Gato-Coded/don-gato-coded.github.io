@@ -1,11 +1,11 @@
 ---
-categories: computing
 title: Bash Shortcuts
 tags:
   - linux
   - bash
   - cli
 date: '2025-02-20'
+categories: computing
 ---
 ![bash logo](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*v4o2AXLIJaHSZmqYZk26qA.jpeg)
 

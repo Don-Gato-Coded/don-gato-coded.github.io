@@ -7,9 +7,9 @@ published: 2025-05-23
 created: 2025-05-27
 description: The World Food Photography Awards sponsored by Bimi® have announced the winners of their 2025 contest, which celebrates excellence in food photography.
 tags:
-  - clippings
   - food
   - photo
+category: Food
 ---
 ![Elderly ladies in Sichuan Province eating spring rolls](https://mymodernmet.com/wp/wp-content/uploads/2025/05/World-Food-Photography-Awards-1-OVERALL-WINNER-Xiaoling-Li-The-Elderly-Having-Delicious-Food.jpg)
 

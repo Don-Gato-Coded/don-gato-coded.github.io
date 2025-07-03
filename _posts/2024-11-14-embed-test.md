@@ -15,3 +15,6 @@ tags: threads
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:f3k4iipaz7ara5xvp3p42moe/app.bsky.feed.post/3lj45xhbsh22h" data-bluesky-cid="bafyreihvfii5k3pdzow3tym6ox6h6i7j3tokzxvzaen7e6soazxajpcp6u"><p lang="en">astronaut don pettit’s new image made my jaw drop. 
 
+
+<script src="https://raw.githack.com/DevManSam777/weather-widget/main/weather-widget.js"></script>
+<weather-widget location="New York, New York"></weather-widget>
