@@ -1,0 +1,103 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Publishing date",
+          "name": "date",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.framework.id": "jekyll",
+  "frontMatter.content.publicFolder": "assets",
+  "frontMatter.preview.host": "http://localhost:4000",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "posts",
+      "path": "[[workspace]]/_posts"
+    },
+    {
+      "path": "[[workspace]]/_pages",
+      "title": "_pages"
+    },
+    {
+      "path": "[[workspace]]/_notes",
+      "title": "_notes"
+    },
+    {
+      "path": "[[workspace]]/_journals",
+      "title": "_journals"
+    },
+    {
+      "path": "[[workspace]]/_posts/sports",
+      "title": "sports"
+    },
+    {
+      "path": "[[workspace]]/_posts/social_media",
+      "title": "social_media"
+    },
+    {
+      "path": "[[workspace]]/_posts/people",
+      "title": "people"
+    },
+    {
+      "path": "[[workspace]]/_posts/links",
+      "title": "links"
+    },
+    {
+      "path": "[[workspace]]/_posts/music",
+      "title": "music"
+    },
+    {
+      "path": "[[workspace]]/_posts/computing",
+      "title": "computing"
+    },
+    {
+      "path": "[[workspace]]/_posts/2020",
+      "title": "2020"
+    },
+    {
+      "title": "img",
+      "path": "[[workspace]]/assets/img"
+    }
+  ],
+  "frontMatter.git.enabled": true
+}

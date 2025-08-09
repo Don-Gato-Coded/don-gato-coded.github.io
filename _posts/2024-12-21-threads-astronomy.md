@@ -24,3 +24,6 @@ category: Social_media
 
 <!-- x venus -->
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The clearest image ever taken of Venus!<br>NASA <a href="https://t.co/uXRfAlsRlk">pic.twitter.com/uXRfAlsRlk</a></p>&mdash; Black Hole (@konstructivizm) <a href="https://twitter.com/konstructivizm/status/1953468926207439065?ref_src=twsrc%5Etfw">August 7, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- x Fibonacci -->
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The Fibonacci sequence isn’t just a math trick—it’s everywhere in nature. From sunflower seeds to galaxies, the universe has a secret love affair with spirals. <a href="https://t.co/8tGUqcyzwx">pic.twitter.com/8tGUqcyzwx</a></p>&mdash; Physics In History (@PhysInHistory) <a href="https://twitter.com/PhysInHistory/status/1953312997385908654?ref_src=twsrc%5Etfw">August 7, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
