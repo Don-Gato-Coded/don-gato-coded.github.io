@@ -1,8 +1,13 @@
 ---
 title: Detroit Tigers
 category: Sports
-tags: Detroit_Tigers michigan sports baseball
+tags:
+    - Detroit_Tigers
+    - michigan
+    - sports
+    - baseball
 toc: false
+fmContentType: default
 ---
 
 - [mlb.com: tigers](https://www.mlb.com/tigers)
@@ -65,3 +70,5 @@ Sporting News Supplement photo insert for Ty Cobb and Johannes "Honus" Wagner, s
 ![](/assets/img/672542726_408ff76448_c.jpg)
 <br/>
 ![](/assets/img/7625926818_9fb1b6facf_c.jpg)
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Billy Martin, circa 1973 <a href="https://twitter.com/tigers?ref_src=twsrc%5Etfw">@tigers</a> <a href="https://t.co/8p3gO5Xt8d">pic.twitter.com/8p3gO5Xt8d</a></p>&mdash; Vintage Jerseys &amp; Hats (@PolyesterUnis) <a href="https://twitter.com/PolyesterUnis/status/1955073247550329322?ref_src=twsrc%5Etfw">August 12, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

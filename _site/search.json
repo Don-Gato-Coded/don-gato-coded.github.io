@@ -2,9 +2,17 @@
   
     {
 
+      "title"    : "Rock Music (General)",
+      "url"      : "/posts/rock-music-general",
+      "content"  : ""
+
+    },
+  
+    {
+
       "title"    : "test one",
       "url"      : "/posts/test-one",
-      "content"  : "bla bla bal"
+      "content"  : "bla bla bal  bla"
 
     },
   
@@ -196,7 +204,7 @@
 
       "title"    : "Detroit Tigers",
       "url"      : "/posts/detroit-tigers",
-      "content"  : "mlb.com: tigers\n  ESPN: Detroit Tigers\n  Instagram: @tigers\n  Threads: @tigers\n  blessyouboys.com\n  freep: Detroit Tigers\n  baseball-reference.com: Detroit Tigers\n\n\n\n\nDescription:\nSporting News Supplement photo insert for Ty Cobb and Johannes \"Honus\" Wagner, sometimes known as \"Hans\" Wagner. This photo is when Cobb played for the Detroit Tigers and Wagner played for the Pittsburgh Pirates.\nThis work is licensed under a [Creative Commons Attribution-NonCommercial-No Derivative Works 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)\n\n\nKey Eras:\n\n\n  Early Years and the Ty Cobb Era (1901-1926):\n    \n      The Tigers joined the American League in 1901.\n      This era is dominated by the legendary Ty Cobb.\n      The Tigers won American League pennants in 1907, 1908, and 1909, but lost all three World Series.\n    \n  \n  The Breakthrough Years (1927-1945):\n    \n      This period saw the Tigers achieve their first World Series victory in 1935.\n      They also won the World Series in 1945.\n      This era included multiple American league pennant wins.\n    \n  \n  The Post-War Drought (1946-1967):\n    \n      A period of relative struggle for the Tigers.\n      Though there where some very good teams, the world series eluded them.\n      Al Kaline becomes a major star during these years.\n    \n  \n  The 1968 World Series Championship:\n    \n      1968 was a pinnacle year, with the Tigers winning the World Series.\n      Mickey Lolich's performance in the series was iconic.\n    \n  \n  The \"Bless You Boys\" Era (1979-1987):\n    \n      Highlighted by the dominant 1984 World Series championship team.\n      Manager Sparky Anderson led the team to great success.\n      1987 also saw a AL East division title.\n    \n  \n  The Rebuilding and Modern Era (1988-Present):\n    \n      This era includes periods of rebuilding and resurgence.\n      The Tigers reached the World Series in 2006 and 2012.\n      Periods of divisional dominance in the early 2010's.\n      A current period of rebuilding, with the hopes of a bright future.\n      The 2024 season saw the tigers return to the playoffs, giving hope for the future.\n    \n  \n\n\nKey Points:\n\n\n  The Detroit Tigers have a rich history with multiple World Series titles and numerous appearances.\n  Key figures like Ty Cobb, Al Kaline, Mickey Lolich, and Sparky Anderson have played significant roles in the team's legacy.\n  The team has gone through many periods of rebuilding, and has shown a history of returning to competitive baseball."
+      "content"  : "mlb.com: tigers\n  ESPN: Detroit Tigers\n  Instagram: @tigers\n  Threads: @tigers\n  blessyouboys.com\n  freep: Detroit Tigers\n  baseball-reference.com: Detroit Tigers\n\n\n\n\nDescription:\nSporting News Supplement photo insert for Ty Cobb and Johannes \"Honus\" Wagner, sometimes known as \"Hans\" Wagner. This photo is when Cobb played for the Detroit Tigers and Wagner played for the Pittsburgh Pirates.\nThis work is licensed under a [Creative Commons Attribution-NonCommercial-No Derivative Works 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/)\n\n\nKey Eras:\n\n\n  Early Years and the Ty Cobb Era (1901-1926):\n    \n      The Tigers joined the American League in 1901.\n      This era is dominated by the legendary Ty Cobb.\n      The Tigers won American League pennants in 1907, 1908, and 1909, but lost all three World Series.\n    \n  \n  The Breakthrough Years (1927-1945):\n    \n      This period saw the Tigers achieve their first World Series victory in 1935.\n      They also won the World Series in 1945.\n      This era included multiple American league pennant wins.\n    \n  \n  The Post-War Drought (1946-1967):\n    \n      A period of relative struggle for the Tigers.\n      Though there where some very good teams, the world series eluded them.\n      Al Kaline becomes a major star during these years.\n    \n  \n  The 1968 World Series Championship:\n    \n      1968 was a pinnacle year, with the Tigers winning the World Series.\n      Mickey Lolich's performance in the series was iconic.\n    \n  \n  The \"Bless You Boys\" Era (1979-1987):\n    \n      Highlighted by the dominant 1984 World Series championship team.\n      Manager Sparky Anderson led the team to great success.\n      1987 also saw a AL East division title.\n    \n  \n  The Rebuilding and Modern Era (1988-Present):\n    \n      This era includes periods of rebuilding and resurgence.\n      The Tigers reached the World Series in 2006 and 2012.\n      Periods of divisional dominance in the early 2010's.\n      A current period of rebuilding, with the hopes of a bright future.\n      The 2024 season saw the tigers return to the playoffs, giving hope for the future.\n    \n  \n\n\nKey Points:\n\n\n  The Detroit Tigers have a rich history with multiple World Series titles and numerous appearances.\n  Key figures like Ty Cobb, Al Kaline, Mickey Lolich, and Sparky Anderson have played significant roles in the team's legacy.\n  The team has gone through many periods of rebuilding, and has shown a history of returning to competitive baseball.\n\n\n\n\n\n\n\n\n\n\n\n\n\nBilly Martin, circa 1973 @tigers pic.twitter.com/8p3gO5Xt8d&mdash; Vintage Jerseys &amp; Hats (@PolyesterUnis) August 12, 2025"
 
     },
   
@@ -284,7 +292,7 @@
 
       "title"    : "Unix History",
       "url"      : "/posts/unix-history",
-      "content"  : "stuff\n\n     View on Threads\n\nhttps://itsfoss.com/birth-of-unix/\nArticles about the history of Linux and Unix.\n\n\n  14_years_of_systemd\n  vim-after-bram-a-core-maintainer-on-how-they've-kept-it-going/\n  unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/\n  LINUX is obsolete (1992)\n  itsfoss.com/birth-of-unix\n\n\n\n\nIn 1956 the IBM 305 RAMAC was introduced. It was the first commercial computer to use disk storage.\n\n#WorldHistory #History[image or embed]&mdash; Unseen History (@unseenhistory.bsky.social) May 23, 2025 at 6:45 PM"
+      "content"  : "Articles about the history of Linux and Unix.\n\n\n  14_years_of_systemd\n  vim-after-bram-a-core-maintainer-on-how-they've-kept-it-going/\n  unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/\n  LINUX is obsolete (1992)\n  itsfoss.com/birth-of-unix\n\n\n\n\nIn 1956 the IBM 305 RAMAC was introduced. It was the first commercial computer to use disk storage.\n\n#WorldHistory #History[image or embed]&mdash; Unseen History (@unseenhistory.bsky.social) May 23, 2025 at 6:45 PM\n\n\nA Brief History of BASH#Linux #Unix #Shell #Bash pic.twitter.com/oBvcFwhM0B&mdash; Mauna Linux (@MaunaLinux) May 9, 2025"
 
     },
   
