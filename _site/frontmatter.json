@@ -22,9 +22,9 @@
           "type": "tags"
         },
         {
-          "title": "toc",
-          "name": "toc",
-          "type": "boolean"
+          "title": "fmContentType",
+          "name": "fmContentType",
+          "type": "string"
         }
       ]
     }
