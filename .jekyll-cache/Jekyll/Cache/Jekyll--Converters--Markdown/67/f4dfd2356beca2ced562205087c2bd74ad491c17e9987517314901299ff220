@@ -1,0 +1,51 @@
+I"†<style>
+.category-content a {
+    text-decoration: none;
+    color: #4183c4;
+}
+
+.category-content a:hover {
+    text-decoration: underline;
+    color: #4183c4;
+}
+</style>
+
+<main>
+    
+        <h3 id="Food">Food</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/food-photo">15 Exceptional Winners of the 2025 World Food Photography Awards</a></li>
+        
+    
+        <h3 id="computing">Computing</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/Ai-bot-scraper">The Open-Source Software Saving the Internet From AI Bot Scrapers</a></li>
+        
+    
+        <h3 id="Post">Post</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/rock-music-general">Rock Music (General)</a></li>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/test-one">test one</a></li>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/fractals">Fractals</a></li>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/tea">2025-07-10-tea</a></li>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/fourfret-Ann-Arbor-MI-People">Fourfret-Ann-Arbor-MI-People</a></li>
+        
+    
+        <h3 id="Sports">Sports</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/test-one">test one</a></li>
+        
+    
+        <h3 id="Music">Music</h3>
+        
+            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="/posts/rock-music-general">Rock Music (General)</a></li>
+        
+    
+    <br />
+    <br />
+</main>
+:ET
