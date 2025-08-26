@@ -18,5 +18,14 @@ permalink: /
         <p>{{ post.excerpt }}</p>
       {% endif %}
     </li>
-  {% endfor %}4
+  {% endfor %}
 </ul>
+
+<!-- <nav class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}">Next</a>
+  {% endif %}
+</nav> -->
