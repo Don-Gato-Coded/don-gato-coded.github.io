@@ -34,9 +34,23 @@
               "icon": "lucide-file",
               "title": "2024-11-26-Michigan_Sports"
             }
+          },
+          {
+            "id": "81edcb89d6324176",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "music/2025-08-28-PJ_Harvey.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-28-PJ_Harvey"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +104,7 @@
             }
           },
           {
-            "id": "38138bcf75a0709b",
+            "id": "2704c7dce0cad245",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -192,11 +206,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "media-extended:Open media": false
     }
   },
-  "active": "6738e553150f7b4f",
+  "active": "2704c7dce0cad245",
   "lastOpenFiles": [
+    "music/music.md",
+    "music/2025-08-28-PJ_Harvey.md",
     "2025-08-25-youtube-playlists.md",
     "links/2024-11-17-links6.md",
     "links/2025-03-02-links5.md",
@@ -224,8 +241,6 @@
     "Ann Arbor history",
     "2025-08-09-test-one.md",
     "2025-08-07-fractals.md",
-    "2025-07-10-tea.md",
-    "2025-07-10-fourfret-Ann-Arbor-MI:-People.md",
     "sports",
     "social_media",
     "people",
