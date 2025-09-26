@@ -13,6 +13,8 @@ Articles about the history of [Linux](Linux.md) and Unix.
 - [unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/](https://arstechnica.com/gadgets/2019/08/unix-at-50-it-starts-with-a-mainframe-a-gator-and-three-dedicated-researchers/ )
 - [LINUX is obsolete (1992)](https://news.ycombinator.com/item?id=42980283)
 - [itsfoss.com/birth-of-unix](https://itsfoss.com/birth-of-unix/)  
+- [forgotten-internet-the-story-of-email](https://hackaday.com/2025/09/17/forgotten-internet-the-story-of-email/)
+
 
 ![Old Ass Unix](https://cdn.arstechnica.net/wp-content/uploads/2019/08/86-300837.jpg.870x660_q60_crop_upscale.jpg) 
 
