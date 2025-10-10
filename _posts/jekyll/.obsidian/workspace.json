@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "2025-08-28-PJ_Harvey"
             }
+          },
+          {
+            "id": "e64aa32ba0211122",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.14"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,7 +116,7 @@
             }
           },
           {
-            "id": "941123c79ac87dfd",
+            "id": "f4505c0a7b63a1cc",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -211,8 +223,9 @@
       "media-extended:Open media": false
     }
   },
-  "active": "941123c79ac87dfd",
+  "active": "e64aa32ba0211122",
   "lastOpenFiles": [
+    "Tags/#quoteszappa",
     "music/music.md",
     "music/2025-08-28-PJ_Harvey.md",
     "2025-08-25-youtube-playlists.md",
@@ -241,7 +254,6 @@
     "03_17_1910_Ty_Cobb__Detroit_and_Hans_Wagner__Pittsburg.jpg",
     "Ann Arbor history",
     "2025-08-09-test-one.md",
-    "2025-08-07-fractals.md",
     "sports",
     "social_media",
     "people",

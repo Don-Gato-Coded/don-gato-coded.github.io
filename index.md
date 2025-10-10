@@ -1,6 +1,9 @@
 ---
 layout: page
 permalink: /
+pagination:
+  enabled: true
+  per_page: 5
 ---
 
 ### Collect. Connect. Create.
@@ -9,8 +12,8 @@ permalink: /
 
 <h1>Recent Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
+<ul class="post-list">
+  {% for post in paginator.posts %}
     <li>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
       <span>{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -21,11 +24,11 @@ permalink: /
   {% endfor %}
 </ul>
 
-<!-- <nav class="pagination">
+<nav class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}">Previous</a>
   {% endif %}
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}">Next</a>
   {% endif %}
-</nav> -->
+</nav>

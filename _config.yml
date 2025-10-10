@@ -25,15 +25,21 @@ email: don-gato-coded@gmail.com
 # Build Settings
 theme: null
 plugins:
+  - jekyll-paginate-v2
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-minifier
   - jekyll-toc
 
-
-paginate: 5           # Number of posts per page
-paginate_path: "/page:num/"
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 markdown: kramdown
 

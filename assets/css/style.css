@@ -214,7 +214,6 @@ hr {
 }
 
 .dashboard {
-  border-bottom: 2px solid black;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -226,6 +225,7 @@ hr {
   border: 1px grey solid;
   border-radius: 3px;
   padding: 3px 10px;
+  margin-bottom: 5px;
 }
 
 .link-to-notes {
@@ -394,7 +394,6 @@ hr {
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   color: #555;
   font-size: 18px;
-  border-bottom: 1px solid black;
   background-color: #f7f7f7;
 }
 
@@ -1188,6 +1187,7 @@ figure img {
   background-color: black;
   color: #333;
   border-radius: 8px;
+  border: none;
 }
 
 #breadcrumbs {
@@ -1238,6 +1238,22 @@ figure img {
 
 #tag-grid {
   max-height: 350px;
+}
+
+.post-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#content .pagination a {
+  font-weight: 600;
+  color: white !important;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.pagination {
+  margin-bottom: 20px;
 }
 
 /* Brennan's Modifications End */
