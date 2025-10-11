@@ -744,6 +744,7 @@ label.srs-toggle {
   width: 100%;
   min-height: 100px;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .related h2 {
@@ -1245,6 +1246,27 @@ figure img {
   padding-left: 0;
 }
 
+/* Post frontmatter fields */
+.post-description {
+  color: #ddd;
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.post-source {
+  color: #bbb;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.post-source a {
+  color: #9fb3ff;
+  text-decoration: underline;
+}
+
 #content .pagination a {
   font-weight: 600;
   color: white !important;
@@ -1265,3 +1287,4 @@ weather-widget {
   content: "";
   display: table;
   clear: both;
+}

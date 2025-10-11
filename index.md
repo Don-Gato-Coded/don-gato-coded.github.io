@@ -6,11 +6,7 @@ pagination:
   per_page: 5
 ---
 
-### Collect. Connect. Create.
-
-## About {{site.title}}
-
-<h1>Recent Posts</h1>
+<h2>Recent Posts</h2>
 
 <ul class="post-list">
   {% for post in paginator.posts %}

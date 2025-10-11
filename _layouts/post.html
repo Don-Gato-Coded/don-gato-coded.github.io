@@ -4,8 +4,20 @@ layout: default
 
 <article class="post" itemscope itemtype="https://schema.org/BlogPosting">
     <h1>{{page.title}}</h1>
+    {%- if page.description != nil and page.description != empty -%}
+        <p class="post-description" itemprop="description">{{ page.description }}</p>
+    {%- endif -%}
     {%- include content.html -%}
     {%- include author.html  -%}
     {%- include backlinks.html -%}
     {%- include related.html -%}
+    {%- if page.source != nil and page.source != empty -%}
+        <p class="post-source">Source:
+            {%- if page.source contains "http" -%}
+                <a href="{{ page.source }}" rel="noopener noreferrer" target="_blank">{{ page.source }}</a>
+            {%- else -%}
+                {{ page.source }}
+            {%- endif -%}
+        </p>
+    {%- endif -%}
 </article>
