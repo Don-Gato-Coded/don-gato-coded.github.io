@@ -30,6 +30,7 @@ author: Don Gato
       {% endif %}
     {% endfor %}
   </ul>
+  {% endif %}
 </section>
 
 - [Album whale](https://albumwhale.com/dongato/all-time-low)
