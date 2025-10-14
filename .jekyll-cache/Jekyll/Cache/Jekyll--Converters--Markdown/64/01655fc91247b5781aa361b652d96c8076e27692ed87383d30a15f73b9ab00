@@ -1,11 +1,13 @@
-I"æ<hr />
-
-<section class="about-profile">
+I"H<section class="about-profile">
   
-  <img src="https://brennanbrown.ca/img/avatar.jpg" alt="The Blacklist" class="about-avatar" />
+  <img src="/assets/img/avatars/gato1.jpeg" alt="The Blacklist" class="about-avatar" />
   
 
-  list-none"&gt;
+  
+  <p>A digital nomad.</p>
+  
+
+  <ul class="list-unstyled">
     
     
       
@@ -72,12 +74,6 @@
         </li>
       
     
-  &lt;/ul&gt;
-  
+  </ul>
 </section>
-
-<ul>
-  <li><a href="https://albumwhale.com/dongato/all-time-low">Album whale</a></li>
-  <li><img src="https://i.postimg.cc/wjZgM2CH/terminal-blank.gif" alt="rerm" /></li>
-</ul>
 :ET

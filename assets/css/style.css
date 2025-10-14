@@ -1280,6 +1280,11 @@ figure img {
 
 /* Brennan's Modifications End */
 
+.about-avatar {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
 weather-widget {
   float: left;
 }
