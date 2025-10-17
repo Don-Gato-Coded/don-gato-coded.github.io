@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: https://don-gato-coded.github.io//sitemap.xml
