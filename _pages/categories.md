@@ -19,10 +19,20 @@ content-type: eg
 
 <main>
     {% for category in site.categories %}
-        <h3 id="{{ category | first }}">{{ category | first | capitalize }}</h3>
-        {% for post in category.last %}
-            <li id="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="{{post.url}}">{{ post.title }}</a></li>
-        {% endfor %}
+        {%- assign category_name = category | first -%}
+        
+        {% comment %} {% endcomment %}
+        {%- assign category_name_down = category_name | downcase -%}
+
+        {% comment %} {% endcomment %}
+        {%- unless category_name_down == 'post' or category_name_down == 'posts' -%}
+
+            <h3 id="{{ category_name }}">{{ category_name | capitalize }}</h3>
+            {% for post in category.last %}
+                <li class="category-content" style="padding-bottom: 0.6em; list-style: none;"><a href="{{post.url}}">{{ post.title }}</a></li>
+            {% endfor %}
+
+        {%- endunless -%}
     {% endfor %}
     <br/>
     <br/>
