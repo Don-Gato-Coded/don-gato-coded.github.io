@@ -30,7 +30,7 @@ Sporting News Supplement photo insert for Ty Cobb and Johannes "Honus" Wagner, s
 
 - **Early Years and the Ty Cobb Era (1901-1926):**
     - The Tigers joined the American League in 1901.
-    - This era is dominated by the legendary Ty Cobb.
+    - This era is dominated by the legendary [[Ty Cobb]].
     - The Tigers won American League pennants in 1907, 1908, and 1909, but lost all three World Series.
 - **The Breakthrough Years (1927-1945):**
     - This period saw the Tigers achieve their first World Series victory in 1935.
@@ -39,7 +39,7 @@ Sporting News Supplement photo insert for Ty Cobb and Johannes "Honus" Wagner, s
 - **The Post-War Drought (1946-1967):**
     - A period of relative struggle for the Tigers.
     - Though there where some very good teams, the world series eluded them.
-    - Al Kaline becomes a major star during these years.
+    - [[Al Kaline]] becomes a major star during these years.
 - **The 1968 World Series Championship:**
     - 1968 was a pinnacle year, with the Tigers winning the World Series.
     - Mickey Lolich's performance in the series was iconic.

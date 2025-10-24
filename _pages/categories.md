@@ -19,7 +19,7 @@ content-type: eg
 
 <main>
     {% for category in site.categories %}
-        {%- assign   = category | first -%}
+        {%- assign category_name = category | first -%}
         
         {% comment %} {% endcomment %}
         {%- assign category_name_down = category_name | downcase -%}

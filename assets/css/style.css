@@ -1,3 +1,35 @@
+:root {
+  --purple: mediumslateblue;
+  --white: white;
+  --black: black;
+
+  --gray-100: #eee;
+  --gray-200: #ddd;
+  --gray-300: #ccc;
+  --gray-400: #bbb;
+  --gray-500: #aaa;
+  --gray-600: #999;
+  --gray-700: #888;
+  --gray-800: #777;
+  --gray-900: #666;
+  --gray-1000: #555;
+  --gray-1100: #444;
+  --gray-1200: #333;
+  --gray-1300: #222;
+  --gray-1400: #111;
+
+  --almost-white: #f7f7f7;
+  --light-blue: #a7d0eb;
+  --icon-purple: #6f1f91;
+  --icon-blue: #3878a0;
+  --icon-green: #56712d;
+  --icon-yellow: #cfa531;
+  --icon-red: #da6064;
+  --link-blue: #0357ac;
+  --light-yellow: #fffc99;
+  --another-light-blue: #9fb3ff;
+}
+
 /******************************************************
     *             PREDEFINE TAGS CSS                     *
     *******************************************************/
@@ -15,11 +47,11 @@ body {
   font-family: Inter, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", Ubuntu, sans-serif;
   min-height: 450px;
   counter-reset: sidenote-counter;
-  background-color: #111;
-  color: white;
+  background-color: var(--gray-1400);
+  color: var(--white);
 }
 
-.outer-div {background-color: black;}
+.outer-div {background-color: var(--black);}
 
 
 .box {
@@ -48,7 +80,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: white;
+  color: var(--white);
   font-weight: 600;
   margin-top: 20px;
 }
@@ -61,7 +93,7 @@ ol,
 table,
 span,
 blockquote {
-  color: #eee;
+  color: var(--gray-100);
 }
 
 p,
@@ -117,7 +149,7 @@ blockquote:before {
 blockquote {
   font-size: 120%;
   padding: 0 10px;
-  border-left: 3px #666 solid;
+  border-left: 3px var(--gray-900) solid;
   font-style: italic;
   font-family: Georgia, serif;
 }
@@ -139,10 +171,10 @@ table {
 
 th,
 td {
-  color: white;
+  color: var(--white);
   padding: 8px;
   text-align: left;
-  background-color: #333;
+  background-color: var(--gray-1200);
 }
 
 td {
@@ -155,12 +187,12 @@ td a {
 }
 
 .item-title {
-  color: #555;
+  color: var(--gray-1000);
   font-weight: 600;
 }
 
 .item-title span {
-  color: #aaa;
+  color: var(--gray-500);
   font-size: 12px;
   font-weight: 400;
 }
@@ -178,12 +210,12 @@ thead tr:nth-child(odd) {
 }
 
 tbody tr:nth-child(even) {
-  background-color: #222;
+  background-color: var(--gray-1300);
 }
 
 hr {
-  background-color: #ccc;
-  color: #ccc;
+  background-color: var(--gray-300);
+  color: var(--gray-300);
   border: 0 none;
   height: 2px;
 }
@@ -191,14 +223,14 @@ hr {
 /* Blogposts: Post-heading, Post-subheading, Post-content, Related Posts*/
 
 .site-heading {
-  border-bottom: 2px solid #f7f7f7;
+  border-bottom: 2px solid var(--almost-white);
   flex: 0 0 20px;
   align-self: stretch;
   align-content: flex-end;
 }
 
 .site-heading h1 {
-  color: white;
+  color: var(--white);
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-stretch: ultra-condensed;
   margin-bottom: 10px;
@@ -218,9 +250,9 @@ hr {
 }
 
 .userboard {
-  background-color: black;
+  background-color: var(--black);
   width: 100%;
-  border: 1px grey solid;
+  border: 1px solid var(--gray-800);
   border-radius: 3px;
   padding: 3px 10px;
   margin-bottom: 5px;
@@ -233,7 +265,7 @@ hr {
 }
 
 .link-to-notes a {
-  color: #0357ac;
+  color: var(--link-blue);
   text-decoration: none;
   font-family: "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
@@ -255,7 +287,7 @@ hr {
 }
 
 .main-site-subheader {
-  /* border-bottom: 1px solid #f7f7f7; */
+  /* border-bottom: 1px solid var(--almost-white); */
   padding-left: 15px;
 }
 
@@ -275,41 +307,41 @@ hr {
   font-size: 20px;
   font-weight: 600;
   padding: 3px 10px;
-  border-right: 1px grey solid;
+  border-right: 1px solid var(--gray-800);
   margin-left: -4px;
 }
 
 .menu a:hover {
-  background-color: mediumpurple;
-  color: black;
+  background-color: var(--purple);
+  color: var(--black);
   text-decoration: none;
   /* border-radius: 8px; */
 }
 
 .hashtags i {
-  color: #6f1f91;
+  color: var(--icon-purple);
 }
 
 .categories i {
-  color: #3878a0;
+  color: var(--icon-blue);
 }
 
 .archive i {
-  color: #56712d;
+  color: var(--icon-green);
 }
 
 .rss i {
-  color: #cfa531;
+  color: var(--icon-yellow);
 }
 
 .donate i {
-  color: #da6064;
+  color: var(--icon-red);
 }
 
 /* Notes: Note-heading, Note-subheading, Notes-content, Related Notes */
 
 .notes-page-subheader {
-  border-bottom: 1px solid #f7f7f7;
+  border-bottom: 1px solid var(--almost-white);
   padding-left: 15px;
 }
 
@@ -329,7 +361,7 @@ hr {
 }
 
 .notes-page-heading {
-  color: white;
+  color: var(--white);
   font-size: 15px;
   font-weight: 600;
   padding-top: 15px;
@@ -341,9 +373,9 @@ hr {
 }
 
 .notes-page-tagline {
-  color: #888888;
+  color: var(--gray-700);
   margin-top: -17px;
-  color: #888888;
+  color: var(--gray-700);
   font-size: 0.7rem;
   font-weight: 550;
 }
@@ -369,17 +401,18 @@ hr {
 }
 
 .default-color {
-  color: #555 !important;
+  color: var(--gray-1000) !important;
 }
 
 .default-background {
-  background-color: #222 !important;
+  background-color: var(--gray-1300) !important;
 }
 
 /* Common custom components between Main Site and Notes: Searchbar, Backbutton, ContentBox, Related Posts/Notes, Copyright,  */
 
 .searchbar {
   letter-spacing: normal !important;
+  
 }
 
 .searchbar input[type="text"] {
@@ -388,15 +421,16 @@ hr {
   box-sizing: border-box;
   width: 99%;
   height: 40px;
-  border: 0px;
+  border: 1px solid var(--gray-800);
+  border-radius: 5
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  color: #555;
+  color: var(--gray-1000);
   font-size: 18px;
-  background-color: #f7f7f7;
+  background-color: var(--almost-white);
 }
 
 ::placeholder {
-  color: #999;
+  color: var(--gray-600);
   font-size: 18px;
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
 }
@@ -406,23 +440,23 @@ hr {
   vertical-align: middle;
   margin-top: -2px;
   padding-left: 20px;
-  color: #888;
+  color: var(--gray-700);
   padding-top: 12.5px;
   z-index: 1;
 }
 
 .searchbar input[type="text"]:focus {
-  border-color: black;
-  box-shadow: 0 0 8px 0 #a7d0eb;
+  border-color: var(--black);
+  box-shadow: 0 0 8px 0 var(--light-blue);
 }
 
 .searchbar input[type="text"]:hover {
-  background-color: white;
+  background-color: var(--white);
 }
 
 .searchbar input[type="text"]:active,
 .searchbar input[type="text"]:focus {
-  background-color: white;
+  background-color: var(--white);
   outline: none;
 }
 
@@ -435,7 +469,7 @@ hr {
 }
 
 .search_res:hover {
-  background-color: black;
+  background-color: var(--black);
   border-radius: 5px;
 }
 
@@ -446,15 +480,15 @@ hr {
 #results-container {
   display: none;
   margin-top: 10px;
-  background-color: #222;
+  background-color: var(--gray-1300);
   border-radius: 8px;
-  border: 2px #444 solid;
+  border: 2px var(--gray-1100) solid;
 }
 
 .back-icon {
-  background-color: #111;
+  background-color: var(--gray-1400);
   fill: currentColor;
-  color: white;
+  color: var(--white);
   margin-top: 5px;
   padding-left: 5px;
   fill: currentColor;
@@ -468,7 +502,7 @@ hr {
 }
 
 .back-p {
-  color: white;
+  color: var(--white);
   text-decoration: underline;
   cursor: pointer;
   font-weight: 600;
@@ -478,12 +512,12 @@ hr {
 .feed-title-excerpt-block {
   width: 100%;
   cursor: pointer;
-  border-top: 1px solid #f7f7f7;
-  border-bottom: 1px solid #f7f7f7;
+  border-top: 1px solid var(--almost-white);
+  border-bottom: 1px solid var(--almost-white);
 }
 
 .feed-title-excerpt-block:hover {
-  background-color: #222;
+  background-color: var(--gray-1300);
 }
 
 .srccode {
@@ -507,7 +541,7 @@ hr {
 }
 
 .feed-title {
-  color: white;
+  color: var(--white);
   margin-left: 20px;
   margin-right: 50px;
   font-size: 16px;
@@ -516,7 +550,7 @@ hr {
 }
 
 .feed-excerpt {
-  color: white;
+  color: var(--white);
   margin-top: -12px;
   margin-left: 20px !important;
   margin-right: 30px;
@@ -537,7 +571,7 @@ hr {
 
 .post-metadata,
 .tag {
-  color: white;
+  color: var(--white);
   display: inline-block;
   padding: 0 8px;
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -545,11 +579,11 @@ hr {
 }
 
 .tag {
-  background-color: black;
+  background-color: var(--black);
 }
 
 .content a {
-  color: mediumslateblue;
+  color: var(--purple);
   text-decoration: none;
 }
 
@@ -639,15 +673,15 @@ li .mn-left {
   margin-left: 20px;
   transform: translate(0, -50%);
   padding: 10px 20px;
-  color: #eee;
-  background-color: #222;
+  color: var(--gray-100);
+  background-color: var(--gray-1300);
   font-weight: normal;
   font-size: 13px;
   border-radius: 8px;
   position: absolute;
   z-index: 99999999;
   box-sizing: border-box;
-  box-shadow: 0 1px 8px #000;
+  box-shadow: 0 1px 8px var(--black);
   display: none;
 }
 
@@ -673,8 +707,8 @@ li .mn-left {
   left: 0;
   top: 50%;
   transform: translate(50%, -50%) rotate(-45deg);
-  background-color: #222;
-  box-shadow: 0 1px 8px #000;
+  background-color: var(--gray-1300);
+  box-shadow: 0 1px 8px var(--black);
 }
 
 .right .infotip-title {
@@ -697,7 +731,7 @@ input.margin-toggle {
 }
 
 .srs-svg {
-  stroke: #555;
+  stroke: var(--gray-1000);
 }
 
 label.sidenote-number {
@@ -730,15 +764,15 @@ label.srs-toggle {
   position: relative;
   padding: 12px;
   width: 240px;
-  background-color: #222;
-  border: solid 1px #444;
+  background-color: var(--gray-1300);
+  border: solid 1px var(--gray-1100);
   border-radius: 5px;
-  box-shadow: 1px 1px 15px #000;
+  box-shadow: 1px 1px 15px var(--black);
   word-wrap: break-word;
 }
 
 .related {
-  background-color: black;
+  background-color: var(--black);
   width: 100%;
   min-height: 100px;
   border-radius: 8px;
@@ -769,7 +803,7 @@ label.srs-toggle {
 }
 
 .related-group:hover {
-  background-color: #333;
+  background-color: var(--gray-1200);
 }
 
 .related-group a {
@@ -794,7 +828,7 @@ label.srs-toggle {
 }
 
 .related-excerpt {
-  color: white !important;
+  color: var(--white) !important;
   padding-left: 10px;
   padding-right: 5px;
   font-size: 16px !important;
@@ -808,7 +842,7 @@ label.srs-toggle {
   background-color: transparent;
   background-repeat: no-repeat;
   cursor: pointer;
-  color: #555;
+  color: var(--gray-1000);
   outline: none;
   border: none;
   overflow: hidden;
@@ -821,10 +855,10 @@ label.srs-toggle {
   z-index: 10;
   padding: 12px 0;
   width: 240px;
-  background-color: #222;
-  border: solid 1px #444;
+  background-color: var(--gray-1300);
+  border: solid 1px var(--gray-1100);
   border-radius: 5px;
-  box-shadow: 1px 1px 15px #000;
+  box-shadow: 1px 1px 15px var(--black);
 }
 
 .context-menu-res li {
@@ -839,7 +873,7 @@ label.srs-toggle {
 }
 
 .context-menu-res li:hover {
-  color: #333;
+  color: var(--gray-1200);
   background-color: #f4f4f4;
 }
 
@@ -848,7 +882,7 @@ label.srs-toggle {
 }
 
 .context-menu-res__link {
-  color: #555;
+  color: var(--gray-1000);
   text-decoration: none;
 }
 
@@ -859,10 +893,10 @@ label.srs-toggle {
   z-index: 10;
   padding: 12px 0;
   width: 177px;
-  background-color: #222;
-  border: solid 1px #444;
+  background-color: var(--gray-1300);
+  border: solid 1px var(--gray-1100);
   border-radius: 5px;
-  box-shadow: 1px 1px 15px #000;
+  box-shadow: 1px 1px 15px var(--black);
 }
 
 .context-menu--active {
@@ -888,14 +922,14 @@ label.srs-toggle {
 .context-menu__link {
   display: block;
   padding: 4px 12px;
-  color: #555;
+  color: var(--gray-1000);
   text-decoration: none;
   font-size: 12px;
   font-family: Inter, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 .context-menu__link:hover {
-  color: #333;
+  color: var(--gray-1200);
   background-color: #f4f4f4;
 }
 
@@ -967,7 +1001,7 @@ label.srs-toggle {
 
 @media screen and (max-width: 1200px) {
   .related-group {
-    background-color: black !important;
+    background-color: var(--black) !important;
     margin-left: 10px;
     width: 90% !important;
     height: 100%;
@@ -987,15 +1021,15 @@ label.srs-toggle {
   left: 50%;
   transform: translate(-50%, 0);
   padding: 10px 20px;
-  color: #eee;
-  background-color: #222;
+  color: var(--gray-100);
+  background-color: var(--gray-1300);
   font-weight: normal;
   font-size: 13px;
   border-radius: 8px;
   position: absolute;
   z-index: 99999999;
   box-sizing: border-box;
-  box-shadow: 0 1px 8px #000;
+  box-shadow: 0 1px 8px var(--black);
   display: none;
 }
 
@@ -1020,8 +1054,8 @@ label.srs-toggle {
     height: 12px;
     left: 50%;
     transform: translate(-50%, 50%) rotate(45deg);
-    background-color: #222;
-    box-shadow: 0 1px 8px #000;
+    background-color: var(--gray-1300);
+    box-shadow: 0 1px 8px var(--black);
   }
 
   .bottom .infotip-title {
@@ -1172,21 +1206,21 @@ figure img {
 }
 
 #site-header a {
-  background-color: #333;
-  color: #eee;
+  background-color: var(--purple);
+  color: var(--gray-100);
   padding: 3px 10px;
   border-radius: 4px;
 }
 
 #site-header a:hover {
-  color: #fffc99;
+  color: var(--light-yellow);
 }
 
 #search-input {
-  background-color: black;
-  color: #333;
+  background-color: var(--black);
+  color: var(--gray-100);
   border-radius: 8px;
-  border: none;
+  border: 1px solid var(--gray-800);
 }
 
 #breadcrumbs {
@@ -1199,15 +1233,16 @@ figure img {
 }
 
 #author {
-  background-color: black;
+  background-color: var(--black);
   border-radius: 8px;
   padding: 10px;
   margin: 15px 0;
+  border: 1px solid var(--gray-800);
 }
 
 #author img {
   border-radius: 999px;
-  border: 1px grey solid;
+  border: 1px solid var(--gray-800);
   max-height: 250px;
 }
 
@@ -1215,8 +1250,8 @@ figure img {
   font-family: "Lucida Console", Monaco, monospace !important;
   font-weight: 600;
   word-spacing: -3px;
-  background: #333;
-  color: white;
+  background: var(--gray-1200);
+  color: var(--white);
   margin-top: 1em;
   
 }
@@ -1228,11 +1263,11 @@ figure img {
 
 #footer a {
   font-weight: normal;
-  color: #ccc;
+  color: var(--gray-300);
 }
 
 #footer a:hover {
-  color: #777;
+  color: var(--gray-800);
 }
 
 #tag-grid {
@@ -1246,7 +1281,7 @@ figure img {
 
 /* Post frontmatter fields */
 .post-description {
-  color: #ddd;
+  color: var(--gray-200);
   font-size: 1rem;
   margin-top: 0.2rem;
   margin-bottom: 0.8rem;
@@ -1254,20 +1289,20 @@ figure img {
 }
 
 .post-source {
-  color: #bbb;
+  color: var(--gray-400);
   font-size: 0.9rem;
   margin-top: 1.2rem;
   margin-bottom: 1rem;
 }
 
 .post-source a {
-  color: #9fb3ff;
+  color: var(--another-light-blue);
   text-decoration: underline;
 }
 
 #content .pagination a {
   font-weight: 600;
-  color: white !important;
+  color: var(--white) !important;
   text-decoration: none;
   margin-right: 10px;
 }
@@ -1291,4 +1326,3 @@ weather-widget {
   display: table;
   clear: both;
 }
-

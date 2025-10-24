@@ -1,24 +1,31 @@
-function changeWeather () {
-    var input = document.getElementById('weather-input');
-    var img = document.getElementById('weather-img');
-    img.src =
-        'https://wttr.in/' + input.value +
-        '_' + weatherOptions
-        + '.png';
-    img.alt = weatherImgAlt + input.value;
-    input.value = '';
+function changeWeather() {
+  var input = document.getElementById('weather-input');
+  var img = document.getElementById('weather-img');
+  img.src = "https://wttr.in/" + input.value + ".png";
+  img.alt = "Weather for " + input.value;
+  var weatherDisplay = document.getElementById('weather-display');
+  weatherDisplay.innerHTML = input.value;
+  input.value = "";
 }
 
-document.getElementById('weather-btn').onclick = function () {
+// Store the elements in variables first
+const weatherBtn = document.getElementById('weather-btn');
+const weatherForm = document.getElementById('weather-form');
+
+// Only run the code IF both elements were found on the page
+if (weatherBtn && weatherForm) {
+  weatherBtn.onclick = function () {
     changeWeather();
-}
+  };
 
-document.getElementById('weather-form').onkeypress = function(event) {
-    if (event.keyCode === 13) {
+  weatherForm.onkeypress = function(event) {
+    // Note: I'm using event.key instead of the deprecated event.keyCode
+    if (event.key === 'Enter') {
       event.preventDefault();
-      changeWeather();
+      weatherBtn.click();
     }
-}
+  };
 
-var weatherOptions = '0pq_transparency=200_lang=en';
-var weatherImgAlt = 'Current weather in ';
+  const weatherOptions = "Bg,temperature=200,lang=es";
+  var weatherImgAlt = "Current weather in ";
+}

@@ -12,6 +12,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theblacklist.qzz.io" # the base hostname & protocol for your site, e.g. https://example.com
 theme_color: white
 encoding: utf-8
+favicon: /assets/img/favicon.png
 
 # Links and Social Media
 repository: https://github.com/brennanbrown/enjoyment-work
@@ -33,7 +34,7 @@ plugins:
 
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 10
   permalink: '/page/:num/'
   title: ':title - page :num'
   limit: 0

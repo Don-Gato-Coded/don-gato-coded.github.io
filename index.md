@@ -3,7 +3,7 @@ layout: page
 permalink: /
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 10
 ---
 
 <h2>Recent Posts</h2>
