@@ -1,6 +1,7 @@
 ---
 title: Dark theme adoption as a function of cognitive exhaustion
-tags: ux programming sleep cognition
+tags:
+  - ux
 ---
 
 Sensitivity to brightness can occur due to number of issues ranging from corneal issues like infections and abrasions, to dry eye, to concussions, to allergies; eg: Keratoconus, Uveitis, Keratitis, Preeclampsia. Google claims in its [[android developer guide that dark themes can improve visibility for people who have low vision and are sensititive to brightness::<https://developer.android.com/guide/topics/ui/look-and-feel/darktheme>]], but people I have spoken to on this topic (n≈20) had normal vision and normal range of sensitivity to light.

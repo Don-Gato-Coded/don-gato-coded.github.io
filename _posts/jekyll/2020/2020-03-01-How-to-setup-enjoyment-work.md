@@ -1,6 +1,7 @@
 ---
 title: How-To Setup Enjoyment work
-tags: jekyll theme
+tags:
+  - jekyll
 categories: test
 comments: true
 ---
