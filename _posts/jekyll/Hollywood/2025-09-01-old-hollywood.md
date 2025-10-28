@@ -1,0 +1,13 @@
+---
+title: Old Hollywood
+category:
+    - Hollywood
+tags:
+    - hollywood
+    - actress
+---
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Lauren Bacall <a href="https://t.co/v44yTgeznK">pic.twitter.com/v44yTgeznK</a></p>&mdash; Hollywood Remembered (@ridethepastlane) <a href="https://twitter.com/ridethepastlane/status/1961780245171728483?ref_src=twsrc%5Etfw">August 30, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Good night with Laura Dern<br>Wild at Heart (1990) directed by David Lynch <a href="https://t.co/IZVONRl8Ri">pic.twitter.com/IZVONRl8Ri</a></p>&mdash; La femme merveilleuse invisible (@larwoolf) <a href="https://twitter.com/larwoolf/status/1962371599879098439?ref_src=twsrc%5Etfw">September 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

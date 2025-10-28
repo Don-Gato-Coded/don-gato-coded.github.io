@@ -1,0 +1,21 @@
+---
+title: "Banksy: The Enigmatic Street Artist"
+category: []
+tags:
+    - art
+    - artist
+---
+
+
+Banksy is a pseudonymous England-based street artist, political activist, and film director whose real name and identity remain unconfirmed and the subject of speculation. Active since the 1990s, his satirical street art and subversive epigrams combine dark humour with graffiti executed in a distinctive stenciling technique. His works of political and social commentary have been featured on streets, walls, and bridges throughout the world. Banksy's work grew out of the Bristol underground scene, which involved collaborations between artists and musicians. His art is known for its anti-authoritarian, anti-capitalist, and anti-war themes, often created in prominent public locations.
+
+<ul class="list-unstyled">
+<li><a href="https://www.banksy.co.uk/">Banksy Official Website</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Banksy">Banksy on Wikipedia</a></li>
+<li><a href="https://www.imdb.com/title/tt1587707/">Exit Through the Gift Shop (2010 Film)</a></li>
+<li><a href="https://www.tate.org.uk/art/artists/banksy-10598">Banksy at the Tate Modern</a></li>
+<li><a href="https://www.sothebys.com/en/articles/the-story-behind-banksys-girl-with-balloon">The Story Behind "Girl with Balloon"</a></li>
+</ul>
+
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:trkbaw7mi7o3h3utgiycfunc/app.bsky.feed.post/3m2zk6vpvrk25" data-bluesky-cid="bafyreihpl3ijuouhvet2at3biyevrpqtrf4wn73gs7m7p67kb7vn4ktsci" data-bluesky-embed-color-mode="dark"><p lang="en">#StreetArt Banksy, Ukraine.<br><br><a href="https://bsky.app/profile/did:plc:trkbaw7mi7o3h3utgiycfunc/post/3m2zk6vpvrk25?ref_src=embed">[image or embed]</a></p>&mdash; H e t e r o t o p ia (<a href="https://bsky.app/profile/did:plc:trkbaw7mi7o3h3utgiycfunc?ref_src=embed">@artsofexistence.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:trkbaw7mi7o3h3utgiycfunc/post/3m2zk6vpvrk25?ref_src=embed">October 12, 2025 at 4:31 PM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>

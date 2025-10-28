@@ -43,7 +43,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body.dark-theme {
   font-family: Inter, "Segoe UI", Roboto, Oxygen, Cantarell, "Open Sans", "Helvetica Neue", Ubuntu, sans-serif;
   min-height: 450px;
   counter-reset: sidenote-counter;
