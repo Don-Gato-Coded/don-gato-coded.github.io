@@ -39,7 +39,8 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//Recipes"
+    "//Recipes",
+    "//racing"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
