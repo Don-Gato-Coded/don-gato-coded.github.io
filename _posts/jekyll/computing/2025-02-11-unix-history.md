@@ -15,6 +15,7 @@ Articles about the history of [Linux](Linux.md) and Unix.
 - [itsfoss.com/birth-of-unix](https://itsfoss.com/birth-of-unix/)  
 - [forgotten-internet-the-story-of-email](https://hackaday.com/2025/09/17/forgotten-internet-the-story-of-email/)
 - [Birth of Unix](https://itsfoss.com/birth-of-unix/)
+- [unix_fourth_edition_tape_rediscovered](https://www.theregister.com/2025/11/07/unix_fourth_edition_tape_rediscovered/)
 
 
 ![Old Ass Unix](https://cdn.arstechnica.net/wp-content/uploads/2019/08/86-300837.jpg.870x660_q60_crop_upscale.jpg) 
