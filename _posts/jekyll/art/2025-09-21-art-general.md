@@ -29,3 +29,4 @@ this time of my avatar Skrif.
 
 <blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:2xnl5y54rm3yms2gy2ljitpb/app.bsky.feed.post/3m5bzydy7oc22" data-bluesky-cid="bafyreifmohqfi75rpy54qqr2szqvvprxgtsrz22ed2aia7hk5al6aioqhm" data-bluesky-embed-color-mode="system"><p lang="en">Work sketch 
 #sketchbook<br><br><a href="https://bsky.app/profile/did:plc:2xnl5y54rm3yms2gy2ljitpb/post/3m5bzydy7oc22?ref_src=embed">[image or embed]</a></p>&mdash; Soul-Lee (<a href="https://bsky.app/profile/did:plc:2xnl5y54rm3yms2gy2ljitpb?ref_src=embed">@soullee.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:2xnl5y54rm3yms2gy2ljitpb/post/3m5bzydy7oc22?ref_src=embed">November 10, 2025 at 11:26 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
+
