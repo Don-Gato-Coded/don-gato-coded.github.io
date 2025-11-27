@@ -72,3 +72,7 @@ Sporting News Supplement photo insert for Ty Cobb and Johannes "Honus" Wagner, s
 ![](/assets/img/7625926818_9fb1b6facf_c.jpg)
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Billy Martin, circa 1973 <a href="https://twitter.com/tigers?ref_src=twsrc%5Etfw">@tigers</a> <a href="https://t.co/8p3gO5Xt8d">pic.twitter.com/8p3gO5Xt8d</a></p>&mdash; Vintage Jerseys &amp; Hats (@PolyesterUnis) <a href="https://twitter.com/PolyesterUnis/status/1955073247550329322?ref_src=twsrc%5Etfw">August 12, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="bluesky-embed" data-bluesky-uri="at://did:plc:4fgb7z3jxofbrhrqixp3hu7t/app.bsky.feed.post/3m5uyv7kho22z" data-bluesky-cid="bafyreibuyec47rw5dux4wd3qicgscohoah4z3cscmfu2axmdyvtgxc624i" data-bluesky-embed-color-mode="system"><p lang="en">Tonight&#x27;s late night card from my collection.
+Time: 12:26 a.m.
+#cardsky<br><br><a href="https://bsky.app/profile/did:plc:4fgb7z3jxofbrhrqixp3hu7t/post/3m5uyv7kho22z?ref_src=embed">[image or embed]</a></p>&mdash; nightowlcardz (<a href="https://bsky.app/profile/did:plc:4fgb7z3jxofbrhrqixp3hu7t?ref_src=embed">@nightowlcardz.bsky.social</a>) <a href="https://bsky.app/profile/did:plc:4fgb7z3jxofbrhrqixp3hu7t/post/3m5uyv7kho22z?ref_src=embed">November 18, 2025 at 12:26 AM</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
