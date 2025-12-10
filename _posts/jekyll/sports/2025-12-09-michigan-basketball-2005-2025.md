@@ -44,3 +44,9 @@ The University of Michigan men's basketball team enters the 2025-2026 season wit
 | **Sun, Mar 8** | **Michigan State*** | **Ann Arbor, MI** | **4:30 PM** |
 
 ***Note:** Home games are in bold. An asterisk (*) denotes a Big Ten Conference game.*
+
+
+CORGI RACES AT THE CRISLER CENTER
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">CORGI RACES AT THE CRISLER CENTER <a href="https://t.co/YAN2jETqzL">pic.twitter.com/YAN2jETqzL</a></p>&mdash; Alejandro Zúñiga (@ByAZuniga) <a href="https://twitter.com/ByAZuniga/status/1998550164383076443?ref_src=twsrc%5Etfw">December 10, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- [michigan-basketball-instant-reactions-after-an-89-61-drubbing-of-villanova](https://www.on3.com/teams/michigan-wolverines/news/michigan-basketball-instant-reactions-after-an-89-61-drubbing-of-villanova/)
