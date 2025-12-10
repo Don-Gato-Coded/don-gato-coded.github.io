@@ -1,4 +1,4 @@
-I"¥C<h2 id="philosophy">Philosophy:</h2>
+I"‰C<h2 id="philosophy">Philosophy:</h2>
 
 <p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
 
@@ -223,10 +223,10 @@ But let's throw in a <b>tag</b>.
 </pre>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">JavaScript syntax highlighting</span><span class="dl">"</span><span class="p">;</span>
-<span class="nx">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+<span class="nf">alert</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="s">"Python syntax highlighting"</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="sh">"</span><span class="s">Python syntax highlighting</span><span class="sh">"</span>
 <span class="k">print</span> <span class="n">s</span>
 </code></pre></div></div>
 

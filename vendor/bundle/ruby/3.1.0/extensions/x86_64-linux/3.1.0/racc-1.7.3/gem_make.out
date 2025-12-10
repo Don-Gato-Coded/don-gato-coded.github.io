@@ -1,0 +1,18 @@
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+/usr/bin/ruby3.1 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-ngpsmp sitelibdir\=./.gem.20251209-21501-ngpsmp clean
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-ngpsmp sitelibdir\=./.gem.20251209-21501-ngpsmp
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-ngpsmp sitelibdir\=./.gem.20251209-21501-ngpsmp install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20251209-21501-ngpsmp/racc
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-ngpsmp sitelibdir\=./.gem.20251209-21501-ngpsmp clean

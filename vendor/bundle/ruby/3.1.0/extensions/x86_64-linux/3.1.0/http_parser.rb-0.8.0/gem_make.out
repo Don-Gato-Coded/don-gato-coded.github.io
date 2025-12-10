@@ -1,0 +1,19 @@
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/usr/bin/ruby3.1 -I/usr/lib/ruby/vendor_ruby extconf.rb
+creating Makefile
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-uydrce sitelibdir\=./.gem.20251209-21501-uydrce clean
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-uydrce sitelibdir\=./.gem.20251209-21501-uydrce
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+linking shared-object ruby_http_parser.so
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-uydrce sitelibdir\=./.gem.20251209-21501-uydrce install
+/usr/bin/install -c -m 0755 ruby_http_parser.so ./.gem.20251209-21501-uydrce
+
+current directory: /home/blk/GitHub/don-gato-coded.github.io/vendor/bundle/ruby/3.1.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20251209-21501-uydrce sitelibdir\=./.gem.20251209-21501-uydrce clean
