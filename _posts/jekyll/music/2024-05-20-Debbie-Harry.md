@@ -1,5 +1,5 @@
 ---
-title:Debbie Harry and Kurt Russell
+title: Debbie Harry and Kurt Russell
 category: threads
 tags: threads rock music
 ---
