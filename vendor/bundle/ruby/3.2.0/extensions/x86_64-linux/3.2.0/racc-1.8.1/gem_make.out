@@ -1,0 +1,18 @@
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/home/blk/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-gze5s8 sitelibdir\=./.gem.20260121-17410-gze5s8 clean
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-gze5s8 sitelibdir\=./.gem.20260121-17410-gze5s8
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-gze5s8 sitelibdir\=./.gem.20260121-17410-gze5s8 install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20260121-17410-gze5s8/racc
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-gze5s8 sitelibdir\=./.gem.20260121-17410-gze5s8 clean

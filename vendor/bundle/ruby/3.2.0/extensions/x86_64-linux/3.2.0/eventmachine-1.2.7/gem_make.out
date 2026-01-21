@@ -1,0 +1,19 @@
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/home/blk/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-2qdmxe sitelibdir\=./.gem.20260121-17410-2qdmxe clean
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-2qdmxe sitelibdir\=./.gem.20260121-17410-2qdmxe
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-2qdmxe sitelibdir\=./.gem.20260121-17410-2qdmxe install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20260121-17410-2qdmxe
+
+current directory: /home/blk/Github/don-gato-coded.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20260121-17410-2qdmxe sitelibdir\=./.gem.20260121-17410-2qdmxe clean
